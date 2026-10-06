@@ -1,0 +1,518 @@
+.productDetailWrapper {
+  display: flex;
+  gap: 30px;
+  .prIamgeSlider {
+    width: 50%;
+    height: 100%;
+    // border: 1px solid rgba(55, 104, 122, 1);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 14px;
+    padding: 20px;
+    position: sticky;
+    top: 106px;
+  }
+  .productInfoAndSpecifications {
+    width: 50%;
+    padding: 20px;
+    .infoHeader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .prCategoryPrCode {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        .prCategory {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          font-weight: 500;
+          font-size: 15px;
+          color: rgba(55, 104, 122, 1);
+          .prCategoryTitle {
+            color: rgba(0, 173, 238, 1);
+          }
+        }
+        .prCode {
+          font-size: 18px;
+          color: rgba(32, 114, 153, 1);
+        }
+      }
+      .wishlistSharelink {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        font-size: 18px;
+        color: rgba(0, 173, 238, 1);
+        .sharelink{
+          cursor: pointer;
+          width: 34px;
+          height: 34px;
+          border-radius: 7px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid rgba(0, 173, 238, 1);
+        }
+      }
+    }
+    .prTitle {
+      margin: 15px 0;
+      font-size: 28px;
+      font-weight: 600;
+      color: black;
+    }
+    .priceAreaWrapper {
+      display: flex;
+      flex-direction: column;
+      .prSaleArea {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        .discountAmount {
+          padding: 8px 12px;
+          font-size: 18px;
+          font-weight: 700;
+          color: white;
+          background-color: rgba(253, 150, 54, 1);
+          border-radius: 8px;
+        }
+      }
+      .priceDiscountedPriceArea {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-top: 10px;
+        .price {
+          font-weight: 700;
+          font-size: 36px;
+          color: rgba(32, 114, 153, 1);
+        }
+        .prOldPrice {
+          font-size: 18px;
+          font-weight: 700;
+          color: rgba(106, 132, 142, 1);
+          text-decoration: line-through;
+          text-decoration-color: red;
+        }
+      }
+    }
+    .advantagesArea {
+      margin-top: 14px;
+      .advantageBtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content !important;
+        padding: 5px 10px;
+        font-size: 11px;
+        color: white;
+        border-radius: 5px;
+        &:nth-child(1) {
+          background-color: #28a745;
+        }
+        &:nth-child(2) {
+          background-color: #007bff;
+        }
+        &:nth-child(3) {
+          background-color: #f97316;
+        }
+        &:nth-child(4) {
+          background-color: #2e7d32;
+        }
+        &:nth-child(5) {
+          background-color: #0d47a1;
+        }
+      }
+    }
+    .btnsArea {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin: 20px 0;
+      .addBasket {
+        width: calc(100% / 3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 7px 15px;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 8px;
+        color: white;
+        background-color: #0048de;
+        cursor: pointer;
+        height: 23px;
+      }
+      .productInBasket {
+        background-color: rgb(253, 150, 54);
+        border: 1px solid rgb(253, 150, 54);
+      }
+      .call {
+        width: calc(100% / 3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 7px 15px;
+        font-size: 14px;
+        font-weight: 500;
+        color: rgba(0, 173, 238, 1);
+        border-radius: 8px;
+        border: 1px solid rgb(0, 173, 238);
+        cursor: pointer;
+        svg {
+          height: 22px;
+        }
+      }
+    }
+    .creditCalculatorArea {
+      // width: 85%;
+      .creditTitle {
+        font-size: 18px;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 15px;
+      }
+      .installmentCalculator {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #e8e8ea;
+        border-radius: 6px;
+        .mounts {
+          width: 55px;
+          height: 40px;
+          border-radius: 6px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 14px;
+          font-weight: 500;
+          color: black;
+          background-color: white;
+          cursor: pointer;
+          border: 0.2px solid #e8e8ea;
+        }
+        .activeMount {
+          background-color: #f5f7fe;
+          color: rgba(32, 114, 153, 1);
+          border: 1px solid rgba(32, 114, 153, 1);
+        }
+        .mountPaymentAndEndTotalPayment {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          flex-shrink: 0;
+          .mountPayment,
+          .endTotalPayment {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 10px;
+            font-weight: 600;
+            font-size: 14px;
+            color: black;
+            background-color: white;
+            .paymeted {
+              white-space: nowrap;
+            }
+          }
+          .endTotalPayment {
+            border-radius: 0 6px 6px 0;
+          }
+        }
+      }
+    }
+    .bankCarts {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      .bankBtnWarapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 15px;
+        border-radius: 14px;
+        border: 1px solid rgba(0, 173, 238, 1);
+        cursor: pointer;
+        img {
+          width: 70px;
+          object-fit: cover;
+        }
+      }
+      .activeBank {
+        background-color: rgb(32, 114, 153);
+        color: white;
+      }
+    }
+  }
+  .productFeaturesArea {
+    margin: 30px 0 0;
+    .title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 5px 7px 3px;
+      cursor: pointer;
+      transition: transform 0.35s ease-in-out;
+      border-bottom: 1px solid rgba(55, 104, 122, 1);
+      .iconUp {
+        transform: rotate(180deg);
+      }
+    }
+    .prFeaturesContent {
+      margin-top: 10px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.7s ease;
+      border: 1px solid #e8e8ea;
+      border-radius: 6px;
+
+      .feature {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 5px 3px 3px;
+        border-bottom: 1px solid rgba(55, 104, 122, 0.4);
+        .key,
+        .value {
+          padding: 0 10px;
+        }
+        &:last-child {
+          border-bottom: none;
+        }
+        &:nth-child(odd) {
+          background-color: white;
+        }
+      }
+    }
+    .activePrFeatures {
+      max-height: 700px;
+    }
+  }
+}
+
+// product detail page responsive
+@media only screen and (max-width: 1320px) {
+  .productDetailWrapper {
+    .productInfoAndSpecifications {
+      .infoHeader {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 10px;
+      }
+      .prTitle {
+        font-size: 20px;
+      }
+      .btnsArea {
+        gap: 7px;
+        .addBasket {
+          gap: 7px;
+          padding: 3px 7px;
+          font-size: 10px;
+          svg {
+            width: 18px;
+          }
+        }
+        .call {
+          gap: 7px;
+          padding: 3px 7px;
+          font-size: 15px;
+          margin-left: 5px;
+        }
+      }
+      .creditCalculatorArea {
+        .installmentCalculator {
+          .mountPayment,
+          .endTotalPayment {
+            .paymeted {
+              white-space: nowrap;
+              font-size: 14px;
+            }
+          }
+        }
+        .bankCarts {
+          gap: 15px;
+          .bankBtnWarapper {
+            gap: 7px;
+            padding: 7px 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .productDetailWrapper {
+    flex-direction: column;
+    gap: 10px;
+    // padding-right: 44px;
+    .prIamgeSlider {
+      width: 100%;
+      padding: 20px;
+      position: inherit;
+      box-sizing: border-box;
+    }
+    .productInfoAndSpecifications {
+      width: 100%;
+      padding: 0;
+      position: relative;
+      .infoHeader {
+        flex-direction: inherit;
+        align-items: start;
+        .prCategoryPrCode {
+          gap: 7px;
+          .prCategory {
+            gap: 3px;
+            font-size: 15px;
+            svg {
+              height: 10px;
+            }
+          }
+          .prCode {
+            font-size: 14px;
+          }
+        }
+        .wishlistSharelink {
+          position: absolute;
+          right: 0;
+          top: 23px;
+          gap: 20px;
+          .shareWord {
+            display: none;
+          }
+          .sharelink
+          {
+            width: 25px;
+            height: 25px;
+            border-radius: 5px;
+
+            svg {
+              width: 20px;
+            }
+          }
+        }
+      }
+      .prTitle {
+        margin-top: 27px;
+        font-size: 20px;
+      }
+      .priceAreaWrapper {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        gap: 7px;
+        .prSaleArea {
+          gap: 7px;
+          .discountAmount {
+            padding: 3px 7px;
+            font-size: 11px;
+            border-radius: 4px;
+          }
+          .discountPercent {
+            font-size: 10px;
+            padding: 3px 7px;
+            border-radius: 4px;
+            border: 1px solid rgba(253, 150, 54, 1);
+          }
+        }
+        .priceDiscountedPriceArea {
+          align-items: baseline;
+          gap: 7px;
+          margin-top: 0;
+          .price {
+            // font-weight: 700;
+            font-size: 20px;
+          }
+          .prOldPrice {
+            font-size: 12px;
+            font-weight: 500;
+            // text-decoration: line-through;
+          }
+        }
+      }
+      .btnsArea {
+        gap: 5px;
+        margin: 20px 0;
+        .buyOneClick {
+          gap: 5px;
+          padding: 3px 7px;
+          font-size: 12px;
+          font-weight: 500;
+          border-radius: 8px;
+          svg {
+            width: 17px;
+          }
+        }
+        .addBasket {
+          gap: 5px;
+          padding: 3px 7px;
+          font-size: 12px;
+          font-weight: 500;
+          border-radius: 8px;
+          svg {
+            width: 17px;
+          }
+        }
+        .call {
+          gap: 5px;
+          padding: 6px 8px;
+          font-size: 12px;
+          font-weight: 500;
+          border-radius: 8px;
+          border: 1px solid rgb(0, 173, 238);
+          svg {
+            height: 16px;
+          }
+        }
+      }
+      .creditCalculatorArea {
+        .creditTitle {
+          font-size: 18px;
+          font-weight: 500;
+          margin-bottom: 8px;
+        }
+        .installmentCalculator {
+          border-radius: 7px;
+          .mounts {
+            width: 45px;
+            height: 35px;
+            font-size: 12px;
+          }
+          .mountPaymentAndEndTotalPayment {
+            gap: 3px;
+            .mountPayment,
+            .endTotalPayment {
+              padding: 4px 5px;
+              font-size: 12px;
+              .paymeted {
+                font-size: 10px;
+              }
+            }
+          }
+        }
+        .bankCarts {
+          gap: 10px;
+          .ABBbankWarapper,
+          .birbankWarapper {
+            gap: 5px;
+            padding: 5px 10px;
+            border-radius: 7px;
+            img {
+              width: 32px;
+              height: 32px;
+              object-fit: cover;
+              border-radius: 100%;
+            }
+          }
+        }
+      }
+     
+    }
+  }
+}

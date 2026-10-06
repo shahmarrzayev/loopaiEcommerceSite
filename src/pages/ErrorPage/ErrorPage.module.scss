@@ -1,0 +1,39 @@
+.errorPage {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .errorInfo {
+    margin: 20px 0 15px;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(9, 151, 218);
+  }
+  .homePageLink {
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 1px solid rgb(9, 151, 218);
+    border-radius: 20px;
+    color: rgb(9, 151, 218);
+    transition: background-color 0.8s ease, color 0.8s ease;
+    &:hover {
+      background-color: rgb(9, 151, 218);
+      color: white;
+    }
+  }
+}
+  
+
+@media only screen and (max-width: 950px) {
+  .errorPage {
+  .errorInfo {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .homePageLink {
+    font-weight: 500;
+  }
+}
+  
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "product": "dyson-v8",
+    "path": "src/assets/images/products/dyson-v8/1.webp",
+    "sourceUrl": "https://cdn11.bigcommerce.com/s-8ek7z3h3jn/images/stencil/2560w/products/9004/50117/dyson-v8-cordless-vacuum-or-447026-01__22091.1722438196.jpg?c=1"
+  },
+  {
+    "product": "nespresso-pixie",
+    "path": "src/assets/images/products/nespresso-pixie/1.webp",
+    "sourceUrl": "https://www.krups.ch/user/pages/03.nespresso/04.pixie/18.9100053288/XN306TCH.PT08.png"
+  },
+  {
+    "product": "philips-hd9252",
+    "path": "src/assets/images/products/philips-hd9252/1.webp",
+    "sourceUrl": "https://cdn.allmarket.ge/2410/93/20/72/756a3b19f5fc45ddb2c497ecc12fd813/353553-1008898.jpg"
+  },
+  {
+    "product": "xiaomi-air-purifier-4-lite",
+    "path": "src/assets/images/products/xiaomi-air-purifier-4-lite/1.webp",
+    "sourceUrl": "https://i05.appmifile.com/586_item_cz/30/08/2024/a0eb1dea14cc1c9a573a938e65879224.png"
+  },
+  {
+    "product": "xiaomi-kettle-2",
+    "path": "src/assets/images/products/xiaomi-kettle-2/1.webp",
+    "sourceUrl": "https://mi-shop.com/upload/katalog-2021/xiaomi-electric-kettle-2/01.jpg"
+  }
+]

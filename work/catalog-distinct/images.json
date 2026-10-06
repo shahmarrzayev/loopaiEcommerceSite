@@ -1,0 +1,290 @@
+[
+  {
+    "product": "ipad-air-m3",
+    "index": 1,
+    "path": "src/assets/images/products/ipad-air-m3/1.webp",
+    "sourceUrl": "https://asset.conrad.com/media10/isa/160267/c1/-/de/003394911PI00/apple-ipad-air-11-m3-2025-wifi-cellular-128-gb-blau-27-9-cm-11-zoll-apple-m3.jpg",
+    "width": 1412,
+    "height": 1600
+  },
+  {
+    "product": "ipad-air-m3",
+    "index": 2,
+    "path": "src/assets/images/products/ipad-air-m3/2.webp",
+    "sourceUrl": "https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/original/apple/494494389/0/Vujy-VEwUq-sJ_dq63HAk-Apple-iPad-Air-M3-Tablet-494494389-i-1-1200Wx1200H.jpeg",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "product": "ipad-air-m3",
+    "index": 3,
+    "path": "src/assets/images/products/ipad-air-m3/3.webp",
+    "sourceUrl": "https://technoperry.com/upload/iblock/710/adof93al60xzl8czvtd118z97imk2eqa.png",
+    "width": 1080,
+    "height": 1080
+  },
+  {
+    "product": "sony-wh1000xm5",
+    "index": 1,
+    "path": "src/assets/images/products/sony-wh1000xm5/1.webp",
+    "sourceUrl": "https://media.falabella.com/falabellaPE/119691546_01/w%3D1500%2Ch%3D1500%2Cfit%3Dcover",
+    "width": 1500,
+    "height": 1500
+  },
+  {
+    "product": "sony-wh1000xm5",
+    "index": 2,
+    "path": "src/assets/images/products/sony-wh1000xm5/2.webp",
+    "sourceUrl": "https://cdn.eqlstore.com/goods/EQBR/22/11/02/GPW222110210434_0_ORGINL.jpg?RS=750",
+    "width": 750,
+    "height": 750
+  },
+  {
+    "product": "sony-wh1000xm5",
+    "index": 3,
+    "path": "src/assets/images/products/sony-wh1000xm5/3.webp",
+    "sourceUrl": "https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/P044643_4402f3bd_thumbnail_1024.jpg",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "product": "adidas-samba-og",
+    "index": 1,
+    "path": "src/assets/images/products/adidas-samba-og/1.webp",
+    "sourceUrl": "https://img.ssfshop.com/cmd/LB_750x1000/src/https%3A/img.ssfshop.com/goods/SPRT/24/07/16/GQDO24071639902_1_ORGINL_20241211105031202.jpg",
+    "width": 750,
+    "height": 1000
+  },
+  {
+    "product": "adidas-samba-og",
+    "index": 2,
+    "path": "src/assets/images/products/adidas-samba-og/2.webp",
+    "sourceUrl": "https://www.footlocker.ph/media/catalog/product/0/8/0803-ADIB75806000003-1.jpg",
+    "width": 1600,
+    "height": 1600
+  },
+  {
+    "product": "adidas-samba-og",
+    "index": 3,
+    "path": "src/assets/images/products/adidas-samba-og/3.webp",
+    "sourceUrl": "https://flylikedis.com/cdn/shop/files/FLYLIKEDIS_ADIDAS_._022025-11-0616.04.37.webp?v=1762416310&width=3840",
+    "width": 1600,
+    "height": 1600
+  },
+  {
+    "product": "nike-air-force-1",
+    "index": 1,
+    "path": "src/assets/images/products/nike-air-force-1/1.webp",
+    "sourceUrl": "https://dam.elcorteingles.es/producto/www-001017731202531-00.jpg",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "product": "nike-air-force-1",
+    "index": 2,
+    "path": "src/assets/images/products/nike-air-force-1/2.webp",
+    "sourceUrl": "https://re-markt.de/media/image/product/28700/md/nike-air-force-1-07-eur-40-5-sneaker-klassisches-design-atmu.jpg",
+    "width": 600,
+    "height": 600
+  },
+  {
+    "product": "nike-air-force-1",
+    "index": 3,
+    "path": "src/assets/images/products/nike-air-force-1/3.webp",
+    "sourceUrl": "https://noirfonce.eu/cdn/shop/products/nike-air-force-1-07-fresh-white-white-white-dm0211-100.jpg?v=1657227009",
+    "width": 850,
+    "height": 680
+  },
+  {
+    "product": "new-balance-530",
+    "index": 1,
+    "path": "src/assets/images/products/new-balance-530/1.webp",
+    "sourceUrl": "https://vuoplug.fi/cdn/shop/files/5c1256f19f4f5c6d3002cafa7c1fb552.webp?v=1728901025&width=1333",
+    "width": 1333,
+    "height": 900
+  },
+  {
+    "product": "new-balance-530",
+    "index": 2,
+    "path": "src/assets/images/products/new-balance-530/2.webp",
+    "sourceUrl": "https://media.zid.store/54503126-dbb9-4aa0-8211-35542f4f7dc4/deb073f5-a60f-4d40-9ffd-1f437e00b56b.png",
+    "width": 1600,
+    "height": 1143
+  },
+  {
+    "product": "new-balance-530",
+    "index": 3,
+    "path": "src/assets/images/products/new-balance-530/3.webp",
+    "sourceUrl": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/106/516/144/original/1134554_01.jpg.jpeg?action=crop&width=3000",
+    "width": 1600,
+    "height": 729
+  },
+  {
+    "product": "puma-suede-classic",
+    "index": 1,
+    "path": "src/assets/images/products/puma-suede-classic/1.webp",
+    "sourceUrl": "https://f.fcdn.app/imgs/a30b51/www.zooko.com.uy/zoo/c31d/original/catalogo/PM399781-01-1/1920-1200/puma-suede-classic-black.jpg",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "product": "puma-suede-classic",
+    "index": 2,
+    "path": "src/assets/images/products/puma-suede-classic/2.webp",
+    "sourceUrl": "https://www.youngsneaker.com/images/puma-suede-classic-sneakers-355462-01.jpg",
+    "width": 750,
+    "height": 750
+  },
+  {
+    "product": "puma-suede-classic",
+    "index": 3,
+    "path": "src/assets/images/products/puma-suede-classic/3.webp",
+    "sourceUrl": "https://asset.snipes.com/images/f_auto%2Cq_80%2Cd_fallback-sni.png/b_rgb%3Af8f8f8%2Cc_pad%2Cw_680%2Ch_680/if_md%3A%21is_ai_generated%21_eq_%21true%21/l_ai_icon/fl_layer_apply%2Cg_south_east%2Cw_24%2Cx_24%2Cy_24/if_end/dpr_1.0/02597681_1/puma-suede-classic-zwart-99687-1",
+    "width": 680,
+    "height": 680
+  },
+  {
+    "product": "converse-chuck-70",
+    "index": 1,
+    "path": "src/assets/images/products/converse-chuck-70/1.webp",
+    "sourceUrl": "https://www.snakeoilprovisions.com/cdn/shop/files/Chuck70CanvasHighTopShoeinBlack_Black_Egret1_de053f99-17cf-4cce-84bb-bd2e0cb016c4.jpg?v=1765309964",
+    "width": 1500,
+    "height": 1500
+  },
+  {
+    "product": "converse-chuck-70",
+    "index": 2,
+    "path": "src/assets/images/products/converse-chuck-70/2.webp",
+    "sourceUrl": "https://noirfonce.eu/cdn/shop/products/converse-chuck-70-classic-high-top-black-2-egret-162050c.jpg?v=1558447885&width=1445",
+    "width": 850,
+    "height": 680
+  },
+  {
+    "product": "converse-chuck-70",
+    "index": 3,
+    "path": "src/assets/images/products/converse-chuck-70/3.webp",
+    "sourceUrl": "https://akn-converse.a-cdn.akinoncloud.com/products/2023/03/28/15159/13fec5f1-0cec-4b02-b488-360f003cb31c_size1340x1000_cropBottom.jpg",
+    "width": 1340,
+    "height": 1000
+  },
+  {
+    "product": "vans-old-skool",
+    "index": 1,
+    "path": "src/assets/images/products/vans-old-skool/1.webp",
+    "sourceUrl": "https://bluetilelounge.com/cdn/shop/files/Vans-Old-Skool-Black-White-right.jpg?v=1732224601",
+    "width": 920,
+    "height": 920
+  },
+  {
+    "product": "vans-old-skool",
+    "index": 2,
+    "path": "src/assets/images/products/vans-old-skool/2.webp",
+    "sourceUrl": "https://palmisleskateshop.com/cdn/shop/files/VN000D3H_Y28_HEROcopy-Photoroom_2048x2048.png?v=1781022814",
+    "width": 1032,
+    "height": 1032
+  },
+  {
+    "product": "vans-old-skool",
+    "index": 3,
+    "path": "src/assets/images/products/vans-old-skool/3.webp",
+    "sourceUrl": "https://calzzapato.com/cdn/shop/files/089539-1.jpg?v=1756317404",
+    "width": 1440,
+    "height": 1080
+  },
+  {
+    "product": "casio-f91w",
+    "index": 1,
+    "path": "src/assets/images/products/casio-f91w/1.webp",
+    "sourceUrl": "https://i.ebayimg.com/thumbs/images/g/DekAAOSwpMBmxsmC/s-l1200.webp",
+    "width": 510,
+    "height": 948
+  },
+  {
+    "product": "casio-f91w",
+    "index": 2,
+    "path": "src/assets/images/products/casio-f91w/2.webp",
+    "sourceUrl": "https://cdn.dsmcdn.com/ty102/product/media/images/20210413/18/79848007/1845525/1/1_org_zoom.jpg",
+    "width": 1067,
+    "height": 1600
+  },
+  {
+    "product": "casio-f91w",
+    "index": 3,
+    "path": "src/assets/images/products/casio-f91w/3.webp",
+    "sourceUrl": "https://d3m9l0v76dty0.cloudfront.net/system/photos/2497691/large/9367d27a90460802d9c4a894cce13b0a.jpg",
+    "width": 472,
+    "height": 500
+  },
+  {
+    "product": "kitchenaid-artisan",
+    "index": 1,
+    "path": "src/assets/images/products/kitchenaid-artisan/1.webp",
+    "sourceUrl": "https://p1.akcdn.net/full/423041493.kitchenaid-artisan-5ksm175.jpg",
+    "width": 800,
+    "height": 518
+  },
+  {
+    "product": "kitchenaid-artisan",
+    "index": 2,
+    "path": "src/assets/images/products/kitchenaid-artisan/2.webp",
+    "sourceUrl": "https://media.enad.io/20dccf88-6cf1-4912-a8a3-40dbcf6e8e0f/fkGXJkRfcxJr-kitchenaid-artisan-5ksm175pseer-roeremaskine-roed-5ksm175pseer-48800-1.jpg?width=1200",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "product": "kitchenaid-artisan",
+    "index": 3,
+    "path": "src/assets/images/products/kitchenaid-artisan/3.webp",
+    "sourceUrl": "https://img.tek.no/w800/plain/products/20/20472100-f14e-45e1-8245-43e695350b4f",
+    "width": 600,
+    "height": 600
+  },
+  {
+    "product": "tefal-ultimate-pure",
+    "index": 1,
+    "path": "src/assets/images/products/tefal-ultimate-pure/1.webp",
+    "sourceUrl": "https://media.reshift.nl/catalog/DFCF4A44978224653F9747D40CA6EDE5B3B7792A",
+    "width": 1066,
+    "height": 1600
+  },
+  {
+    "product": "tefal-ultimate-pure",
+    "index": 2,
+    "path": "src/assets/images/products/tefal-ultimate-pure/2.webp",
+    "sourceUrl": "https://platincdn.com/1743/pictures/GFYNR115714_110001274666773.jpg",
+    "width": 424,
+    "height": 600
+  },
+  {
+    "product": "tefal-ultimate-pure",
+    "index": 3,
+    "path": "src/assets/images/products/tefal-ultimate-pure/3.webp",
+    "sourceUrl": "https://cdn.manomano.com/images/images_products/20918142/P/90593864_2.jpg",
+    "width": 470,
+    "height": 470
+  },
+  {
+    "product": "nintendo-switch-oled",
+    "index": 1,
+    "path": "src/assets/images/products/nintendo-switch-oled/1.webp",
+    "sourceUrl": "https://i5-mx.walmartimages.com/samsmx/images/product-images/img_large/980031501l.jpg",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "product": "nintendo-switch-oled",
+    "index": 2,
+    "path": "src/assets/images/products/nintendo-switch-oled/2.webp",
+    "sourceUrl": "https://www.clove.co.uk/cdn/shop/files/f3f702f0e374dd3ed8898cb05ff17455_2048x.jpg?v=1714130889",
+    "width": 1600,
+    "height": 1600
+  },
+  {
+    "product": "nintendo-switch-oled",
+    "index": 3,
+    "path": "src/assets/images/products/nintendo-switch-oled/3.webp",
+    "sourceUrl": "https://www.gamingstore.co.il/image/cache/catalog/product-new/Nintendo/console/nintendo-switch-oled-white-playstore-008-700x700.png",
+    "width": 700,
+    "height": 700
+  }
+]

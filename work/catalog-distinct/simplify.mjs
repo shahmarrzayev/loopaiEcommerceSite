@@ -1,0 +1,7 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';
+const file='src/localeDatas/datas.jsx';const source=fs.readFileSync(file,'utf8');const imports=[...source.matchAll(/^import (\w+) from "([^"]+)";/gm)];const start=source.indexOf('// 1. Bütün məhsulları');assert(start>0);const prefix=source.slice(0,start);const catalog=new Function(...imports.map(i=>i[1]),prefix.slice(prefix.indexOf('const productsCatalog ='))+'return productsCatalog;')(...imports.map(i=>i[2]));
+const names={elektronika:'electronicsProducts',paltarVeAkssesuarlar:'clothingProducts',evVeYasam:'homeProducts'};let text='// Bu siyahılarda məhsulların əsas məlumatları saxlanılır.\n';
+for(const key of Object.keys(catalog))text+=`const ${names[key]} = productsCatalog.${key}.products;\n`;
+text+='\n// Hər məhsulun oxşar məhsulları aşağıda ayrıca göstərilib.\n// [0] siyahıdakı birinci, [1] ikinci məhsuldur və s.\nexport const allProductsData = {\n';
+for(const [key,cat] of Object.entries(catalog)){const name=names[key];text+=`  ${key}: {\n    ...productsCatalog.${key},\n    products: [\n`;
+for(const [index,p] of cat.products.entries()){text+=`      // ${p.title}\n      {\n        ...${name}[${index}],\n        similarProducts: [\n`;for(const id of p.similarProductIds){const n=cat.products.findIndex(q=>q.id===id);assert(n>=0);text+=`          ${name}[${n}], // ${cat.products[n].title}\n`;}text+='        ],\n      },\n';}text+='    ],\n  },\n';}text+='};\n';fs.writeFileSync(file,prefix+text);

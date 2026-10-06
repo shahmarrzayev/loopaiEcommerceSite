@@ -1,0 +1,55 @@
+.emptyProductArea {
+  width: 80%;
+  margin: 20px auto 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .icon > svg {
+    width: 120px;
+    height: 120px;
+  }
+  .title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #0997da;
+  }
+  .shortInfo {
+    font-size: 30px;
+    color: #0997da;
+    margin: -5px 0 15px;
+  }
+  .pageLinkBtn {
+    padding: 10px 20px;
+    color: #0997da;
+    border-radius: 40px;
+    font-size: 20px;
+    border: 1px solid #0997da;
+  }
+}
+
+// empty componet responsive
+@media only screen and (max-width: 950px) {
+  .emptyProductArea {
+    width: 100%;
+    text-align: center;
+    .icon > svg {
+      width: 80px;
+      height: 80px;
+    }
+    .title {
+      font-size: 18px;
+      margin: 10px 0 3px;
+    }
+    .shortInfo {
+      font-size: 15px;
+      margin: 0px 0 10px;
+    }
+    .pageLinkBtn {
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.inputWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  label {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(66, 90, 139, 1);
+    margin-bottom: 7px;
+  }
+   input,
+  .ImaskInp
+  // , select 
+   {
+    outline: none;
+    border: 1px solid rgba(66, 90, 139, 1);
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 98%;
+    padding: 15px 0 15px 10px;
+  }
+  .showHiddenPassword {
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    svg{
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .errorMessage {
+    color: rgb(209, 9, 9);
+    text-align: start;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .inputWrapper {
+    label {
+      font-size: 20px;
+    }
+      input,
+  .ImaskInp,
+  select {
+    font-size: 18px;
+    padding: 10px 0 10px 5px;
+       &::placeholder{
+      font-size: 14px;
+    }
+  }
+    .showHiddenPassword {
+    top: 43px;
+  }
+    .errorMessage {
+    font-size: 14px;
+  }
+  }
+}
+//inputun type  number (telefon) inputun css
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "product": "iphone-17",
+    "index": 1,
+    "path": "src/assets/images/products/iphone-17/1.webp",
+    "sourceUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-black-202509?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "product": "iphone-17",
+    "index": 2,
+    "path": "src/assets/images/products/iphone-17/2.webp",
+    "sourceUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-witb-black-202509?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "product": "iphone-17",
+    "index": 3,
+    "path": "src/assets/images/products/iphone-17/3.webp",
+    "sourceUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-black-202509_AV2?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "product": "airpods-pro-3",
+    "index": 1,
+    "path": "src/assets/images/products/airpods-pro-3/1.webp",
+    "sourceUrl": "https://www.apple.com/v/airpods-pro/t/images/overview/welcome/hero__b0eal3mn03ua_large.jpg",
+    "width": 1800,
+    "height": 1050
+  },
+  {
+    "product": "airpods-pro-3",
+    "index": 2,
+    "path": "src/assets/images/products/airpods-pro-3/2.webp",
+    "sourceUrl": "https://www.apple.com/v/airpods-pro/t/images/overview/product-viewer/closer_look_initial__cksqga5hm77m_large.jpg",
+    "width": 1728,
+    "height": 912
+  },
+  {
+    "product": "airpods-pro-3",
+    "index": 3,
+    "path": "src/assets/images/products/airpods-pro-3/3.webp",
+    "sourceUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-pro-3-hero-select-202509?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "product": "airpods-max-2",
+    "index": 1,
+    "path": "src/assets/images/products/airpods-max-2/1.webp",
+    "sourceUrl": "https://www.apple.com/v/airpods-max/l/images/overview/bento/midnight/bento_1_airpod_max_midnight__4jy1tkqh9qay_xlarge.jpg",
+    "width": 1680,
+    "height": 740
+  },
+  {
+    "product": "airpods-max-2",
+    "index": 2,
+    "path": "src/assets/images/products/airpods-max-2/2.webp",
+    "sourceUrl": "https://www.apple.com/v/airpods-max/l/images/overview/media-card/design_static__dph7m26odtg2_xlarge.jpg",
+    "width": 1680,
+    "height": 740
+  },
+  {
+    "product": "airpods-max-2",
+    "index": 3,
+    "path": "src/assets/images/products/airpods-max-2/3.webp",
+    "sourceUrl": "https://www.apple.com/v/airpods-max/l/images/overview/media-card/hifi_static__fbsq0dr3be2q_xlarge.jpg",
+    "width": 1680,
+    "height": 740
+  },
+  {
+    "product": "magsafe-charger",
+    "index": 1,
+    "path": "src/assets/images/products/magsafe-charger/1.webp",
+    "sourceUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MGD74?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "product": "magsafe-charger",
+    "index": 2,
+    "path": "src/assets/images/products/magsafe-charger/2.webp",
+    "sourceUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MGD74_AV1?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "product": "magsafe-charger",
+    "index": 3,
+    "path": "src/assets/images/products/magsafe-charger/3.webp",
+    "sourceUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MGD74_AV2?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "width": 1000,
+    "height": 1000
+  }
+]

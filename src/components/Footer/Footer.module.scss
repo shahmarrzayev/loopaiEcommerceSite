@@ -1,0 +1,221 @@
+.footerWrapper {
+  .footerBrandsSlider {
+    background-color: white;
+    padding: 50px 0;
+    .brandLogo {
+      width: 100%;
+    }
+  }
+  .footerBottom {
+    padding: 50px 0;
+    background-color: rgba(240, 243, 248, 1);
+    .footercontent {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      .footerLeft {
+        flex: 2.5;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .siteFotterLogo {
+          width: 240px;
+          img {
+            width: 100%;
+          }
+        }
+        .siteShortInfo {
+          padding-right: 30px;
+          font-size: 18px;
+          font-weight: 400;
+          color: rgba(77, 100, 146, 1);
+        }
+        .paymentCartLogo {
+          width: 121px;
+        }
+      }
+      .footerPageList {
+        flex: 1.5;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .pageStyle {
+          white-space: nowrap;
+          display: flex;
+          align-items: center;
+          gap: 3px;
+          font-size: 18px;
+          font-weight: 400;
+          color: rgba(66, 90, 139, 1);
+        }
+        .activePage {
+          color: rgb(14, 87, 231);
+        }
+      }
+      .footerContantList {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .title {
+          font-size: 24px;
+          font-weight: 700;
+          color: rgba(66, 90, 139, 1);
+        }
+        .communicationIndicator {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          .key {
+            white-space: nowrap;
+            font-size: 16px;
+            font-weight: 700;
+            color: rgba(66, 90, 139, 1);
+          }
+          .value {
+            white-space: nowrap;
+            font-size: 16px;
+            font-weight: 400;
+            color: rgba(66, 90, 139, 1);
+          }
+        }
+        .footerSocila {
+          margin-top: 15px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+      }
+      .mapWrapper {
+        flex: 3;
+        border-radius: 25px;
+      }
+    }
+  }
+  .whiteLine {
+    display: block;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+  .createdWebsite {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .copyright,
+    .createdBy {
+      font-weight: 600;
+      font-size: 14px;
+      // color: white;
+    }
+    .looptechLogo {
+      margin-left: 10px;
+      height: 12px;
+    }
+  }
+}
+// footer responsive
+@media only screen and (max-width: 1320px) {
+  .footerWrapper {
+    .footerBottom {
+      padding: 30px 0;
+      .footercontent {
+        gap: 10px;
+        .footerLeft {
+          gap: 10px;
+          .unistoreFotterLogo {
+            width: 120px;
+          }
+          .unistoreShortInfo {
+            padding-right: 5px;
+            font-size: 14px;
+          }
+        }
+        .footerPageList {
+          gap: 7px;
+          .pageStyle {
+            font-size: 16px;
+          }
+        }
+        .footerContantList {
+          gap: 7px;
+          .title {
+            font-size: 20px;
+            font-weight: 500;
+          }
+          .communicationIndicator {
+            gap: 5px;
+            .key {
+              font-size: 14px;
+              font-weight: 600;
+            }
+            .value {
+              font-size: 12px;
+            }
+          }
+          .footerSocila {
+            margin-top: 10px;
+            svg {
+              width: 28px;
+            }
+          }
+        }
+        .mapWrapper {
+          flex: 2;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .footerWrapper {
+    .footerBrandsSlider {
+      padding: 15px 0;
+    }
+    .footerBottom {
+      padding: 10px 0;
+      .footercontent {
+        gap: 10px;
+        flex-direction: column;
+        .footerLeft {
+          flex: 1;
+          gap: 10px;
+          .unistoreFotterLogo {
+            width: 100px;
+          }
+          .unistoreShortInfo {
+            padding-right: 0;
+            font-size: 15px;
+          }
+        }
+        .footerPageList {
+          flex: 1;
+        }
+        .footerContantList {
+          .title {
+            font-size: 24px;
+            font-weight: 700;
+            color: rgba(66, 90, 139, 1);
+          }
+          .footerSocila {
+            margin-top: 5px;
+          }
+        }
+        // .mapWrapper {
+        //   width: 100%;
+        //   height: 400px;
+        //   border-radius: 15px;
+        // }
+      }
+    }
+    .createdWebsite {
+      flex-direction: column;
+      align-items: start;
+      gap: 3px;
+      margin-bottom: 55px;
+    }
+  }
+}

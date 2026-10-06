@@ -1,0 +1,85 @@
+.basketAndConfirmOrderPageHeaderWrapper{
+  width: 70%;
+  margin: 0 auto;
+.pageTitle {
+  margin: 20px auto;
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+  color: rgba(77, 100, 146, 1);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin: 30px auto;
+  .headerLeft,
+  .headerRight {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(0, 73, 147, 1);
+    .oneNumber,
+    .twoNumber {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 100%;
+      border: 1px solid rgba(0, 73, 147, 1);
+    }
+  }
+  // .headerRight {
+  //   color: rgba(9, 151, 218, 1);
+  //   color: red;
+  //   .twoNumber {
+  //     border: 1px solid rgba(9, 151, 218, 1);
+  //   }
+  // }
+  .middleLine {
+    width: 40%;
+    height: 2px;
+    background-color: rgba(77, 100, 146, 1);
+  }
+}
+}
+
+@media only screen and (max-width: 950px) {
+  .basketAndConfirmOrderPageHeaderWrapper{
+  width: 100%;
+.pageTitle {
+ margin: -18px auto -4px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.header {
+  gap: 10px;
+  margin: 10px auto 20px;
+  .headerLeft,
+  .headerRight {
+    gap: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    .oneNumber,
+    .twoNumber {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  // .headerRight {
+  //   color: rgba(9, 151, 218, 1);
+  //   .twoNumber {
+  //     border: 1px solid rgba(9, 151, 218, 1);
+  //   }
+  // }
+  .middleLine {
+    width: 40%;
+    // height: 2px;
+  }
+}
+}
+}

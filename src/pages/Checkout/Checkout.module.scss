@@ -1,0 +1,415 @@
+.orderPage {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  // global style
+  .markerElememnt {
+    width: 17px;
+    height: 17px;
+    border: 2px solid rgb(77, 100, 146);
+    border-radius: 4px;
+    position: relative;
+  }
+  input:checked + span::after {
+    content: "✔";
+    color: rgb(77, 100, 146);
+    font-size: 22px;
+    position: absolute;
+    top: -7px;
+  }
+  .error {
+    color: rgb(209, 9, 9);
+    text-align: start;
+    display: block;
+    margin: -7px 0 10px;
+  }
+  .paymentTypeError {
+    color: rgb(209, 9, 9);
+    text-align: start;
+    display: block;
+    margin-top: 10px;
+  }
+  .sectionTitle {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(77, 100, 146);
+  }
+  .orderContent {
+    width: 80%;
+    height: fit-content;
+    .personalInformation {
+      padding: 15px;
+      border-radius: 14px;
+      background-color: #f2f2f2;
+      .nameSurname {
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+        gap: 50px;
+      }
+    }
+
+    .deliveryArea {
+      margin: 20px 0;
+      padding: 15px;
+      border-radius: 14px;
+      background-color: #f2f2f2;
+      .addressDelivery {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        margin: 15px 0 20px;
+
+        .deliveryInputWrapper {
+          cursor: pointer;
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: center;
+          gap: 10px;
+          .deliveryInput {
+            opacity: 0;
+          }
+        }
+      }
+      .addressDeliveryContent {
+        .cityAndaddress {
+          display: flex;
+          // align-items: center;
+          gap: 50px;
+        }
+        textarea {
+          resize: none;
+          outline: none;
+          border: 1px solid rgb(77, 100, 146);
+          border-radius: 10px;
+          font-size: 18px;
+          margin-bottom: 10px;
+          width: 98%;
+          padding: 15px 10px;
+        }
+      }
+    }
+    .paymentArea {
+      padding: 15px;
+      border-radius: 14px;
+      background-color: #f2f2f2;
+      .titlePayment {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 10px 0;
+        color: rgb(77, 100, 146);
+      }
+      .paymentMetod {
+        display: flex;
+        gap: 30px;
+        input {
+          display: none;
+        }
+        .cash,
+        .card,
+        .online {
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          padding: 7px 17px;
+          background-color: rgb(77, 100, 146);
+          color: white;
+          border-radius: 7px;
+        }
+        .activePayment {
+          background-color: green;
+          color: #fff;
+        }
+      }
+      .kreditMonths {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 15px;
+.creditItem {
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 12px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  input {
+    display: none;
+  }
+}
+.activeCredit {
+     background-color: green;
+     color: white;
+}
+}
+
+      .cashbakArea {
+        display: flex;
+        gap: 5px;
+        margin: 10px 0 10px auto;
+        input {
+          display: none;
+        }
+      }
+    }
+    .sendBtn {
+      display: flex;
+      margin: 50px auto 20px;
+      padding: 10px 30px;
+      background-color: #7ca104;
+      color: white;
+      border-radius: 30px;
+      font-weight: 500;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  .basketTotalAddressSelect {
+    .isSelectAddressData {
+      margin-bottom: 12px;
+      border: 1px solid rgb(78, 116, 51);
+      border-radius: 20px;
+      padding: 20px 9px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .title {
+        font-weight: 500;
+        font-size: 18px;
+        margin: 10px 0;
+      }
+      .isCheckedInputWrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        color: rgba(124, 161, 4, 1);
+        gap: 7px;
+        font-weight: 700;
+        font-size: 16px;
+        margin: 10px auto 10px 0;
+        cursor: pointer;
+        white-space: nowrap;
+        border-bottom: 1px solid rgba(238, 238, 238, 1);
+        padding-bottom: 10px;
+        input {
+          opacity: 0;
+        }
+      }
+      .selectInfo {
+        margin: 3px 0;
+        border-bottom: 1px solid rgba(238, 238, 238, 1);
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .key {
+          color: rgba(171, 171, 171, 1);
+          font-size: 15px;
+          font-weight: 600;
+        }
+        .value {
+          font-size: 18px;
+          color: rgb(124, 161, 4);
+          margin-left: 5px;
+          font-family: "Radio Canada", sans-serif;
+        }
+      }
+    }
+  }
+}
+
+
+
+// order page responsive
+@media only screen and (max-width: 950px) {
+  .orderPage {
+    flex-direction: column;
+    // global style
+    // .markerElememnt {
+    //   width: 17px;
+    //   height: 17px;
+    //   border: 2px solid rgba(78, 116, 51, 1);
+    //   border-radius: 4px;
+    //   position: relative;
+    // }
+    input:checked + span::after {
+      // content: "✔";
+      // color: rgba(78, 116, 51, 1);
+      // font-size: 22px;
+      // position: absolute;
+      // top: -7px;
+      left: -2px;
+    }
+    // .error {
+    //   color: rgb(209, 9, 9);
+    //   text-align: start;
+    //   display: block;
+    //   margin: -7px 0 10px;
+    // }
+    .orderContent {
+      width: 100%;
+      // height: fit-content;
+      .personalInformation{
+      .nameSurname {
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
+        // gap: 50px;
+        flex-direction: column;
+        gap: 5px;
+      }
+    }
+      .deliveryArea {
+        // .titleDelivery {
+        //   font-size: 20px;
+        //   font-weight: 500;
+        //   margin: 10px 0;
+        //   color: #7ca104;
+        // }
+        .addressDelivery {
+          // display: flex;
+          // align-items: center;
+          // gap: 50px;
+          // margin: 15px 0 20px;
+          flex-wrap: wrap;
+          gap: 10px;
+          .deliveryInputWrapper {
+            cursor: pointer;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            gap: 10px;
+            .deliveryInput {
+              opacity: 0;
+            }
+          }
+        }
+        .addressDeliveryContent {
+          .cityAndaddress {
+            // display: flex;
+            // align-items: center;
+            flex-direction: column;
+            gap: 10px;
+          }
+          textarea {
+            // resize: none;
+            // outline: none;
+            // border: 1px solid #7ca10480;
+            // border-radius: 10px;
+            // font-size: 18px;
+            // margin-bottom: 10px;
+            width: 95%;
+            // padding: 15px 10px;
+          }
+        }
+      }
+      // .paymentArea {
+      //   .titlePayment {
+      //     font-size: 20px;
+      //     font-weight: 500;
+      //     margin: 10px 0;
+      //     color: #7ca104;
+      //   }
+      //   .paymentMetod {
+      //     display: flex;
+      //     gap: 30px;
+      //     input {
+      //       display: none;
+      //     }
+      //     .cash,
+      //     .card,
+      //     .online {
+      //       cursor: pointer;
+      //       display: flex;
+      //       align-items: center;
+      //       gap: 10px;
+      //       padding: 7px 17px;
+      //       background-color: #7ca104;
+      //       color: white;
+      //       border-radius: 7px;
+      //     }
+      //     .activePayment {
+      //       background-color: red;
+      //       color: #fff;
+      //     }
+      //   }
+      //   .cashbakArea {
+      //     display: flex;
+      //     gap: 5px;
+      //     margin: 10px 0 10px auto;
+      //     input {
+      //       display: none;
+      //     }
+      //   }
+      // }
+      // .sendBtn {
+      //   display: flex;
+      //   margin: 50px auto 20px;
+      //   padding: 10px 30px;
+      //   background-color: #7ca104;
+      //   color: white;
+      //   border-radius: 30px;
+      //   font-weight: 500;
+      //   font-size: 20px;
+      //   border: none;
+      //   cursor: pointer;
+      // }
+    }
+    // .basketTotalAddressSelect {
+    //   .isSelectAddressData {
+    //     margin-bottom: 12px;
+    //     border: 1px solid rgb(78, 116, 51);
+    //     border-radius: 20px;
+    //     padding: 20px 9px;
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     .title {
+    //       font-weight: 500;
+    //       font-size: 18px;
+    //       margin: 10px 0;
+    //     }
+    //     .isCheckedInputWrapper {
+    //       display: flex;
+    //       flex-direction: row-reverse;
+    //       color: rgba(124, 161, 4, 1);
+    //       gap: 7px;
+    //       font-weight: 700;
+    //       font-size: 16px;
+    //       margin: 10px auto 10px 0;
+    //       cursor: pointer;
+    //       white-space: nowrap;
+    //       border-bottom: 1px solid rgba(238, 238, 238, 1);
+    //       padding-bottom: 10px;
+    //       input {
+    //         opacity: 0;
+    //       }
+    //     }
+    //     .selectInfo {
+    //       margin: 3px 0;
+    //       border-bottom: 1px solid rgba(238, 238, 238, 1);
+    //       padding-bottom: 10px;
+    //       display: flex;
+    //   align-items: center;
+    //   justify-content: space-between;
+    //       .key {
+    //         color: rgba(171, 171, 171, 1);
+    //         font-size: 15px;
+    //         font-weight: 600;
+    //       }
+    //       .value {
+    //         font-size: 18px;
+    //         color: rgb(124, 161, 4);
+    //         margin-left: 5px;
+    //         font-family: "Radio Canada", sans-serif;
+    //       }
+    //     }
+    //   }
+    // }
+  }
+}

@@ -1,0 +1,42 @@
+.loadingArea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // background: rgb(107, 104, 104);
+  border-radius: 20px;
+  .loadingAnimate {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #424141;
+    border-top: 4px solid #2a8bbb;
+    border-radius: 50%;
+    animation: imageLoadingAnimate 0.8s linear infinite;
+  }
+}
+.cartSlider {
+  display: block;
+  position: relative;
+  width: 99%;
+  padding-top: 65%; //   aspect-ratio: xx  /  xx;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+}
+
+@keyframes imageLoadingAnimate {
+  to {
+    transform: rotate(360deg);
+  }
+}

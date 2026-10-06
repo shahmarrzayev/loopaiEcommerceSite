@@ -1,0 +1,450 @@
+[
+  {
+    "product": "iphone-16-pro",
+    "index": 1,
+    "path": "src/assets/images/products/iphone-16-pro/1.webp",
+    "sourceUrl": "https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/article/Apple-iPhone-16-Pro-hero-240909_inline.jpg.large.jpg",
+    "width": 653,
+    "height": 914
+  },
+  {
+    "product": "iphone-16-pro",
+    "index": 2,
+    "path": "src/assets/images/products/iphone-16-pro/2.webp",
+    "sourceUrl": "https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/article/Apple-iPhone-16-Pro-finish-lineup-240909_big.jpg.large.jpg",
+    "width": 980,
+    "height": 653
+  },
+  {
+    "product": "iphone-16-pro",
+    "index": 3,
+    "path": "src/assets/images/products/iphone-16-pro/3.webp",
+    "sourceUrl": "https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/article/Apple-iPhone-16-Pro-camera-system-240909_inline.jpg.large.jpg",
+    "width": 653,
+    "height": 435
+  },
+  {
+    "product": "iphone-16-pro",
+    "index": 4,
+    "path": "src/assets/images/products/iphone-16-pro/4.webp",
+    "sourceUrl": "https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/article/Apple-iPhone-16-Pro-Apple-Intelligence-Writing-Tools-240909_inline.jpg.large.jpg",
+    "width": 653,
+    "height": 914
+  },
+  {
+    "product": "s25-ultra",
+    "index": 1,
+    "path": "src/assets/images/products/s25-ultra/1.webp",
+    "sourceUrl": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s938uzkeatt/gallery/us-galaxy-s25-s938-536276-sm-s938uzkeatt-548617850?wid=1200&hei=1200&fmt=png",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "product": "s25-ultra",
+    "index": 2,
+    "path": "src/assets/images/products/s25-ultra/2.webp",
+    "sourceUrl": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s938uzkeatt/gallery/us-galaxy-s25-s938-536276-sm-s938uzkeatt-548617827?wid=1200&hei=1200&fmt=png",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "product": "s25-ultra",
+    "index": 3,
+    "path": "src/assets/images/products/s25-ultra/3.webp",
+    "sourceUrl": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s938uzkeatt/gallery/us-galaxy-s25-s938-536276-sm-s938uzkeatt-548617828?wid=1200&hei=1200&fmt=png",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "product": "s25-ultra",
+    "index": 4,
+    "path": "src/assets/images/products/s25-ultra/4.webp",
+    "sourceUrl": "https://images.samsung.com/is/image/samsung/p6pim/us/sm-s938uzkeatt/gallery/us-galaxy-s25-s938-536276-sm-s938uzkeatt-548617829?wid=1200&hei=1200&fmt=png",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "product": "macbook-air-15",
+    "index": 1,
+    "path": "src/assets/images/products/macbook-air-15/1.webp",
+    "sourceUrl": "https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-hero-250305_big.jpg.large.jpg",
+    "width": 980,
+    "height": 551
+  },
+  {
+    "product": "macbook-air-15",
+    "index": 2,
+    "path": "src/assets/images/products/macbook-air-15/2.webp",
+    "sourceUrl": "https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-hero-250305_big.jpg.large.jpg",
+    "width": 980,
+    "height": 551
+  },
+  {
+    "product": "macbook-air-15",
+    "index": 3,
+    "path": "src/assets/images/products/macbook-air-15/3.webp",
+    "sourceUrl": "https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-top-view-250305_big.jpg.large.jpg",
+    "width": 980,
+    "height": 653
+  },
+  {
+    "product": "macbook-air-15",
+    "index": 4,
+    "path": "src/assets/images/products/macbook-air-15/4.webp",
+    "sourceUrl": "https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-side-view-250305_big.jpg.large.jpg",
+    "width": 980,
+    "height": 653
+  },
+  {
+    "product": "ps5-slim",
+    "index": 1,
+    "path": "src/assets/images/products/ps5-slim/1.webp",
+    "sourceUrl": "https://sonyworld.co.za/cdn/shop/files/PS5_D_SA_RNDR_LT_PROD_RGB_AE_231018.jpg",
+    "width": 1600,
+    "height": 1600
+  },
+  {
+    "product": "ps5-slim",
+    "index": 2,
+    "path": "src/assets/images/products/ps5-slim/2.webp",
+    "sourceUrl": "https://sonyworld.co.za/cdn/shop/files/PS5_D_SA_RNDR_FT_RGB_AE_231018.jpg",
+    "width": 1600,
+    "height": 1600
+  },
+  {
+    "product": "ps5-slim",
+    "index": 3,
+    "path": "src/assets/images/products/ps5-slim/3.webp",
+    "sourceUrl": "https://sonyworld.co.za/cdn/shop/files/PS5_D_SA_RNDR_LT_RGB_EMAE_231018.jpg",
+    "width": 1600,
+    "height": 1600
+  },
+  {
+    "product": "ps5-slim",
+    "index": 4,
+    "path": "src/assets/images/products/ps5-slim/4.webp",
+    "sourceUrl": "https://sonyworld.co.za/cdn/shop/files/PS5_D_SA_RNDR_RT_RGB_AE_231018.jpg",
+    "width": 1600,
+    "height": 1600
+  },
+  {
+    "product": "apple-watch-10",
+    "index": 1,
+    "path": "src/assets/images/products/apple-watch-10/1.webp",
+    "sourceUrl": "https://www.apple.com/newsroom/images/2024/09/introducing-apple-watch-series-10/article/Apple-Watch-Series-10-hero-240909_big.jpg.large.jpg",
+    "width": 980,
+    "height": 551
+  },
+  {
+    "product": "apple-watch-10",
+    "index": 2,
+    "path": "src/assets/images/products/apple-watch-10/2.webp",
+    "sourceUrl": "https://www.apple.com/newsroom/images/2024/09/introducing-apple-watch-series-10/article/Apple-Watch-Series-10-profile-240909_big.jpg.large.jpg",
+    "width": 980,
+    "height": 653
+  },
+  {
+    "product": "apple-watch-10",
+    "index": 3,
+    "path": "src/assets/images/products/apple-watch-10/3.webp",
+    "sourceUrl": "https://www.apple.com/newsroom/images/2024/09/introducing-apple-watch-series-10/article/Apple-Watch-Series-10-larger-display-240909_big.jpg.large.jpg",
+    "width": 980,
+    "height": 551
+  },
+  {
+    "product": "apple-watch-10",
+    "index": 4,
+    "path": "src/assets/images/products/apple-watch-10/4.webp",
+    "sourceUrl": "https://www.apple.com/newsroom/images/2024/09/introducing-apple-watch-series-10/article/Apple-Watch-Series-10-wide-angle-OLED-display-240909_big.jpg.large.jpg",
+    "width": 980,
+    "height": 551
+  },
+  {
+    "product": "nike-air-max-270",
+    "index": 1,
+    "path": "src/assets/images/products/nike-air-max-270/1.webp",
+    "sourceUrl": "https://www.buzzsneakers.ba/files/images/slike-proizvoda/media/AH8/AH8050-005/images360/AH8050-005_3.jpg.webp",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "product": "nike-air-max-270",
+    "index": 2,
+    "path": "src/assets/images/products/nike-air-max-270/2.webp",
+    "sourceUrl": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/078/455/288/original/332449_03.jpg.jpeg?action=crop&width=900",
+    "width": 900,
+    "height": 480
+  },
+  {
+    "product": "nike-air-max-270",
+    "index": 3,
+    "path": "src/assets/images/products/nike-air-max-270/3.webp",
+    "sourceUrl": "https://img.eobuwie.cloud/eob_product_660w_880h%28d/d/7/1/dd714565308acf16b9bdd41efd577d748351aa8b_0000207770232_03_pa%2Cjpg%29/buty-nike-air-max-270-ah8050-005-black-black-black.jpg",
+    "width": 660,
+    "height": 880
+  },
+  {
+    "product": "nike-air-max-270",
+    "index": 4,
+    "path": "src/assets/images/products/nike-air-max-270/4.webp",
+    "sourceUrl": "https://www.buzzsneakers.ba/files/images/slike-proizvoda/media/AH8/AH8050-005/images/AH8050-005.jpg.webp",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "product": "adidas-hoodie",
+    "index": 1,
+    "path": "src/assets/images/products/adidas-hoodie/1.webp",
+    "sourceUrl": "https://www.nikys-sports.com/cdn/shop/products/Essentials_Fleece_Hoodie_Grey_H12213_25_model.jpg",
+    "width": 840,
+    "height": 840
+  },
+  {
+    "product": "adidas-hoodie",
+    "index": 2,
+    "path": "src/assets/images/products/adidas-hoodie/2.webp",
+    "sourceUrl": "https://www.nikys-sports.com/cdn/shop/products/Essentials_Fleece_Hoodie_Grey_H12213_23_hover_model.jpg",
+    "width": 840,
+    "height": 840
+  },
+  {
+    "product": "adidas-hoodie",
+    "index": 3,
+    "path": "src/assets/images/products/adidas-hoodie/3.webp",
+    "sourceUrl": "https://www.nikys-sports.com/cdn/shop/products/Essentials_Fleece_Hoodie_Grey_H12213_01_laydown.jpg",
+    "width": 840,
+    "height": 840
+  },
+  {
+    "product": "levis-501",
+    "index": 1,
+    "path": "src/assets/images/products/levis-501/1.webp",
+    "sourceUrl": "https://levi.pt/content/img/1818x2000/levis_jeam_masculino_501-original-fit-jeans-00501-0101_one-wash_1.jpg",
+    "width": 1454,
+    "height": 1600
+  },
+  {
+    "product": "levis-501",
+    "index": 2,
+    "path": "src/assets/images/products/levis-501/2.webp",
+    "sourceUrl": "https://levi.pt/content/img/1818x2000/levis_jeam_masculino_501-original-fit-jeans-00501-0101_one-wash_2.jpg",
+    "width": 1454,
+    "height": 1600
+  },
+  {
+    "product": "levis-501",
+    "index": 3,
+    "path": "src/assets/images/products/levis-501/3.webp",
+    "sourceUrl": "https://levi.pt/content/img/1818x2000/levis_jeam_masculino_501-original-fit-jeans-00501-0101_one-wash_3.jpg",
+    "width": 1454,
+    "height": 1600
+  },
+  {
+    "product": "levis-501",
+    "index": 4,
+    "path": "src/assets/images/products/levis-501/4.webp",
+    "sourceUrl": "https://levi.pt/content/img/1818x2000/levis_jeam_masculino_501-original-fit-jeans-00501-0101_one-wash_4.jpg",
+    "width": 1454,
+    "height": 1600
+  },
+  {
+    "product": "rayban-aviator",
+    "index": 1,
+    "path": "src/assets/images/products/rayban-aviator/1.webp",
+    "sourceUrl": "https://www.sunglassconnection.com.au/cdn/shop/files/Ray-Ban-Aviator-Classic-RB3025-Arista-Green-Glass-Front_Sunglasses__31557.1728899507.1280.1280.jpg",
+    "width": 800,
+    "height": 800
+  },
+  {
+    "product": "rayban-aviator",
+    "index": 2,
+    "path": "src/assets/images/products/rayban-aviator/2.webp",
+    "sourceUrl": "https://www.sunglassconnection.com.au/cdn/shop/files/Ray-Ban-Aviator-Classic-RB3025-Arista-Green-Glass-Angle_Sunglasses__11687.1728899503.1280.1280.jpg",
+    "width": 800,
+    "height": 800
+  },
+  {
+    "product": "rayban-aviator",
+    "index": 3,
+    "path": "src/assets/images/products/rayban-aviator/3.webp",
+    "sourceUrl": "https://www.sunglassconnection.com.au/cdn/shop/files/Ray-Ban-Aviator-Classic-RB3025-Arista-Green-Glass-Temple_Sunglasses__76221.1728899504.1280.1280.jpg",
+    "width": 800,
+    "height": 800
+  },
+  {
+    "product": "north-face-jacket",
+    "index": 1,
+    "path": "src/assets/images/products/north-face-jacket/1.webp",
+    "sourceUrl": "https://store.walkin-store.com/client_info/ROUND_ABOUT_WALKIN/itemimage/25LO_TNFAW92555/25LO-TNFAW92555_001.jpg",
+    "width": 800,
+    "height": 800
+  },
+  {
+    "product": "north-face-jacket",
+    "index": 2,
+    "path": "src/assets/images/products/north-face-jacket/2.webp",
+    "sourceUrl": "https://store.walkin-store.com/client_info/ROUND_ABOUT_WALKIN/itemimage/25LO_TNFAW92555/25LO-TNFAW92555_002.jpg",
+    "width": 800,
+    "height": 800
+  },
+  {
+    "product": "north-face-jacket",
+    "index": 3,
+    "path": "src/assets/images/products/north-face-jacket/3.webp",
+    "sourceUrl": "https://store.walkin-store.com/client_info/ROUND_ABOUT_WALKIN/itemimage/25LO_TNFAW92555/25LO-TNFAW92555_003.jpg",
+    "width": 800,
+    "height": 800
+  },
+  {
+    "product": "north-face-jacket",
+    "index": 4,
+    "path": "src/assets/images/products/north-face-jacket/4.webp",
+    "sourceUrl": "https://store.walkin-store.com/client_info/ROUND_ABOUT_WALKIN/itemimage/25LO_TNFAW92555/25LO-TNFAW92555_004.jpg",
+    "width": 800,
+    "height": 800
+  },
+  {
+    "product": "dyson-v15",
+    "index": 1,
+    "path": "src/assets/images/products/dyson-v15/1.webp",
+    "sourceUrl": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/hero-locale/es_ES/446986-01.png",
+    "width": 800,
+    "height": 1200
+  },
+  {
+    "product": "dyson-v15",
+    "index": 2,
+    "path": "src/assets/images/products/dyson-v15/2.webp",
+    "sourceUrl": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/hero-locale/de_DE/394451-01.png?fmt=png-alpha&scl=1",
+    "width": 800,
+    "height": 1200
+  },
+  {
+    "product": "dyson-v15",
+    "index": 3,
+    "path": "src/assets/images/products/dyson-v15/3.webp",
+    "sourceUrl": "https://cdn11.bigcommerce.com/s-sp9oc95xrw/images/stencil/1280x1280/products/29977/93219/PRODUCT_IMAGE__92383.1742209750.png?c=2",
+    "width": 1000,
+    "height": 1000
+  },
+  {
+    "product": "dyson-v15",
+    "index": 4,
+    "path": "src/assets/images/products/dyson-v15/4.webp",
+    "sourceUrl": "https://product.hstatic.net/200000636469/product/cong-cu-ket-hop_43f66b9fbded479fbc5168aec58e6c8f_large.jpg",
+    "width": 480,
+    "height": 480
+  },
+  {
+    "product": "philips-airfryer",
+    "index": 1,
+    "path": "src/assets/images/products/philips-airfryer/1.webp",
+    "sourceUrl": "https://images.philips.com/is/image/philipsconsumer/vrs_708fcd35_9dce_4860_832ac44dabdf2f21?wid=1200&hei=1200&fmt=png",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "product": "philips-airfryer",
+    "index": 2,
+    "path": "src/assets/images/products/philips-airfryer/2.webp",
+    "sourceUrl": "https://images.philips.com/is/image/philipsconsumer/vrs_de2d5fac_b52d_4530_8673fa7555c804b3?wid=1200&hei=1200&fmt=png",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "product": "philips-airfryer",
+    "index": 3,
+    "path": "src/assets/images/products/philips-airfryer/3.webp",
+    "sourceUrl": "https://images.philips.com/is/image/philipsconsumer/vrs_1da14258_001d_4239_8e1c218dbd4c69b4?wid=1200&hei=1200&fmt=png",
+    "width": 1200,
+    "height": 1200
+  },
+  {
+    "product": "nespresso",
+    "index": 1,
+    "path": "src/assets/images/products/nespresso/1.webp",
+    "sourceUrl": "https://assets.breville.com/cdn-cgi/image/width=1304,format=auto,quality=75/BEC320/dna3_en_US.jpg",
+    "width": 500,
+    "height": 500
+  },
+  {
+    "product": "nespresso",
+    "index": 2,
+    "path": "src/assets/images/products/nespresso/2.webp",
+    "sourceUrl": "https://assets.breville.com/cdn-cgi/image/width=1304,format=auto,quality=75/BEC320/dna1_en_US.jpg",
+    "width": 500,
+    "height": 500
+  },
+  {
+    "product": "nespresso",
+    "index": 3,
+    "path": "src/assets/images/products/nespresso/3.webp",
+    "sourceUrl": "https://assets.breville.com/cdn-cgi/image/width=1304,format=auto,quality=75/BEC320/dna2_en_US.jpg",
+    "width": 500,
+    "height": 500
+  },
+  {
+    "product": "nespresso",
+    "index": 4,
+    "path": "src/assets/images/products/nespresso/4.webp",
+    "sourceUrl": "https://assets-dam.foodthinkers.com/ZKCA55LU/at/hqf65grtskswg6cqnnntqjc/pdp.jpg?pdp",
+    "width": 1300,
+    "height": 1300
+  },
+  {
+    "product": "xiaomi-lamp",
+    "index": 1,
+    "path": "src/assets/images/products/xiaomi-lamp/1.webp",
+    "sourceUrl": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1666850673.95389721.png",
+    "width": 800,
+    "height": 800
+  },
+  {
+    "product": "xiaomi-lamp",
+    "index": 2,
+    "path": "src/assets/images/products/xiaomi-lamp/2.webp",
+    "sourceUrl": "https://i02.appmifile.com/312_operator_sg/18/05/2021/f11f1d0e41ab7ba0efc4ed04af29a6ec.jpg",
+    "width": 1600,
+    "height": 749
+  },
+  {
+    "product": "xiaomi-lamp",
+    "index": 3,
+    "path": "src/assets/images/products/xiaomi-lamp/3.webp",
+    "sourceUrl": "https://i02.appmifile.com/381_operator_sg/18/05/2021/2ab29f75ec541abdeafe7b28b758cf1d.jpg?f=webp",
+    "width": 1600,
+    "height": 658
+  },
+  {
+    "product": "roborock",
+    "index": 1,
+    "path": "src/assets/images/products/roborock/1.webp",
+    "sourceUrl": "https://m.media-amazon.com/images/I/71Xc4AQWlbL._AC_UF894%2C1000_QL80_.jpg",
+    "width": 894,
+    "height": 966
+  },
+  {
+    "product": "roborock",
+    "index": 2,
+    "path": "src/assets/images/products/roborock/2.webp",
+    "sourceUrl": "https://image.alza.cz/products/ROBRV514/ROBRV514-02.jpg",
+    "width": 1505,
+    "height": 1600
+  },
+  {
+    "product": "roborock",
+    "index": 3,
+    "path": "src/assets/images/products/roborock/3.webp",
+    "sourceUrl": "https://bermud.az/181329-large_default/robot-pylesos-roborock-s8-black.jpg",
+    "width": 750,
+    "height": 750
+  },
+  {
+    "product": "roborock",
+    "index": 4,
+    "path": "src/assets/images/products/roborock/4.webp",
+    "sourceUrl": "https://img.gkbcdn.com/p/2024-07-12/Roborock-S8-Robot-Vacuum-Cleaner-Black-10000359-0._w500_.jpg",
+    "width": 500,
+    "height": 500
+  }
+]

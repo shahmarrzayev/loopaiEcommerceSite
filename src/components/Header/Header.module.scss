@@ -1,0 +1,574 @@
+
+.headerWrapper {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background-color: #ffffff;
+  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+
+  &.scrolled {
+    background-color: #edf3ff;
+    box-shadow: 0 4px 18px rgba(0, 48, 130, 0.12);
+  }
+
+  .headerContents {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    align-items: center;
+    background-color: transparent;
+    padding: 7px 0 0 0;
+    height: 70px;
+    // border-radius: 20px;
+    position: relative;
+    .siteLogo {
+      width: 145px;
+      margin-top: 8px;
+      border: 1px solid red;
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+.categoryBtnAndCategoryContent {
+  position: relative;
+  .catalogBtn {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px 7px;
+    color: #ffffff;
+    background-color: #0048de;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: #003bbb;
+    }
+  }
+}
+    .searchWrapper {
+      position: relative;
+      width: 45%;
+      display: flex;
+      border: 1px solid #0048de;
+      padding: 7px 10px;
+      background-color: white;
+      border-radius: 10px;
+      input {
+        width: 100%;
+        outline: none;
+        border: none;
+        font-size: 20px;
+      }
+      .inpValueRemove {
+        svg {
+          width: 15px;
+          height: 15px;
+          margin-top: 6px;
+        }
+      }
+      svg {
+        width: 20px;
+        height: 20px;
+        display: block;
+        margin: 1px 3px 0 0;
+        cursor: pointer;
+      }
+      .searchAreaWrapper {
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+        top: 43px;
+        left: 0;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px;
+        padding: 15px;
+        box-sizing: border-box;
+        .searchValueandAllSearchBtn {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 5px 0;
+          .searchValue {
+            color: #242635;
+          }
+          .allSearchValue {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: #416ac7;
+            cursor: pointer;
+          }
+        }
+        .headerSearchResult {
+          width: 100%;
+          max-height: 400px;
+          display: flex;
+          gap: 8px;
+          .searchResultCart {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 5px;
+            padding: 10px 3px;
+            box-sizing: border-box;
+            width: calc((100% - 32px) / 5);
+            // min-width: 0;
+            cursor: pointer;
+            background-color: white;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            .prImageWrapper {
+              display: block;
+              position: relative;
+              width: 100%;
+              padding-top: 80%;
+              img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+              }
+            }
+            .prTitle {
+              width: 100%;
+              height: 30px;
+              text-align: center;
+              font-size: 12px;
+              line-height: 15px;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 2;
+              overflow: hidden;
+              color: #242635;
+              font-weight: 500;
+              text-overflow: ellipsis;
+            }
+            .price {
+              display: block;
+              color: black;
+              font-size: 12px;
+              font-weight: 500;
+              // margin-bottom: -5px;
+              text-decoration: line-through;
+              text-decoration-color: red;
+            }
+            .discountedPrice {
+              display: block;
+              font-weight: 700;
+              font-size: 12px;
+              color: #242635;
+            }
+          }
+          .noSearchResult {
+            width: 100%;
+            text-align: center;
+            margin: 10px 0 20px;
+            color: black;
+            font-weight: 700;
+          }
+        }
+        .allResultBtn {
+          width: fit-content;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 10px auto 0;
+          color: #0048de;
+          padding: 5px 10px;
+          border-radius: 10px;
+          box-shadow:
+            rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+            rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+          cursor: pointer;
+        }
+      }
+    }
+    .webHeaderPhone {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+          font-weight: 700;
+
+      .phoneIcon {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        color: rgba(66, 90, 139, 1);
+      }
+      .phone {
+        white-space: nowrap;
+        font-weight: 700;
+        color: rgba(66, 90, 139, 1);
+      }
+    }
+    .webHeaderRigth {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .basket {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(66, 90, 139, 1);
+        svg {
+          margin-right: 10px;
+        }
+        .inPrCount {
+          position: absolute;
+          top: -20px;
+          left: 11px;
+          width: 30px;
+          height: 28px;
+          border-radius: 100%;
+          background-color: #0048de;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 15px;
+        }
+      }
+
+    }
+    .mobileHamburgerMenuBtn {
+      display: none;
+    }
+    .mobileHeaderBottom {
+      display: none;
+    }
+
+  }
+}
+
+// productu baskete ve sevimlilere atanda iwleyen animasiya
+:global(.basketAnimate) {
+  animation: basketPulse 0.3s ease-in-out;
+}
+
+
+
+
+// productu baskete ve sevimlilere atanda iwleyen animasiya
+@keyframes basketPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+// header responsive styles
+// @media only screen and (max-width: 2400px) {
+//   .headerWrapper {
+//     .headerContents {
+//       .searchWrapper {
+//         width: 50%;
+//       }
+//     }
+//   }
+// }
+// @media only screen and (max-width: 2100px) {
+//   .headerWrapper {
+//     .headerContents {
+//       .searchWrapper {
+//         width: 45%;
+//       }
+//     }
+//   }
+// }
+// @media only screen and (max-width: 1720px) {
+//   .headerWrapper {
+//     .headerContents {
+//       .searchWrapper {
+//         width: 40%;
+//       }
+//     }
+//   }
+// }
+// @media only screen and (max-width: 1500px) {
+//   .headerWrapper {
+//     .headerContents {
+//       .searchWrapper {
+//         width: 30%;
+//       }
+//     }
+//   }
+// }
+
+// @media only screen and (max-width: 1320px) {
+//   .headerWrapper {
+//     .headerContents {
+//       gap: 12px;
+//       .unistoreLogo {
+//         width: 130px;
+//       }
+//       .searchWrapper {
+//         position: initial;
+//         width: 30%;
+//       }
+//       .webHeaderPhone {
+//         font-size: 14px;
+//         .phoneIcon {
+//           display: flex;
+//           align-items: center;
+//           gap: 7px;
+//         }
+//         .phone {
+//           font-weight: 500;
+//           font-size: 14px;
+//           white-space: nowrap;
+//         }
+//       }
+//       .webHeaderRigth {
+//         a {
+//           font-size: 15px;
+//         }
+//         svg {
+//           margin-right: 5px;
+//           width: 18px;
+//         }
+//       }
+//     }
+//   }
+// }
+
+@media only screen and (max-width: 950px) {
+  .siteTest {
+  font-size: 11px;
+}
+  .headerWrapper {
+    .headerContents {
+      padding: 0px 10px;
+      height: 40px;
+      border-radius: 7px;
+      .unistoreLogo {
+        width: 75px;
+      }
+      .categoryBtnAndCategoryContent{
+        display: none;
+    }
+      .searchWrapper {
+        width: 45%;
+        border-radius: 14px;
+        height: 15px;
+        position: initial;
+        input {
+          margin-top: -2px;
+          font-size: 16px;
+        }
+        svg {
+          width: 16px;
+          height: 16px;
+          // display: block;
+          margin: -1px 5px 0 0;
+          // cursor: pointer;
+        }
+        .inpValueRemove svg {
+          width: 14px;
+          height: 12px;
+          margin-top: 2px;
+        }
+        .searchAreaWrapper {
+          width: 90%;
+          top: 38px;
+          transform: translateX(6%);
+          padding: 7px;
+          .searchValueandAllSearchBtn {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px 0;
+            .searchValue {
+              font-size: 12px;
+            }
+            .allSearchValue {
+              font-size: 12px;
+              font-weight: 500;
+            }
+          }
+          .headerSearchResult {
+            gap: 4px;
+            .searchResultCart {
+              width: calc((100% - 12px) / 4);
+              .prTitle {
+                width: 100%;
+                min-width: 0;
+                max-width: 100%;
+                height: 24px;
+                margin-top: 5px;
+                font-size: 10px;
+                line-height: 12px;
+                font-weight: 700;
+                text-align: center;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+                overflow-wrap: break-word;
+                word-break: break-word;
+              }
+              .price {
+                font-size: 10px;
+              }
+              .discountedPrice {
+                font-size: 10px;
+              }
+            }
+          }
+          .allResultBtn {
+            font-size: 12px;
+            font-weight: 700;
+          }
+        }
+      }
+      .webHeaderPhone {
+        display: none;
+      }
+      .webHeaderRigth {
+        gap: 5px;
+        .productCompare,
+        .wishList,
+        .basket {
+          display: none;
+        }
+        .enterSiteBtn {
+          height: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 9px;
+          padding: 4px 7px;
+        }
+        .haveLogin {
+          height: 20px;
+          font-size: 12px;
+          padding: 3px 5px;
+          border-radius: 14px;
+          svg {
+            width: 12px;
+          }
+        }
+      }
+
+      .mobileHamburgerMenuBtn {
+        display: block;
+      }
+      .mobileHeaderBottom {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #207299;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 28px 0 8px 0;
+        z-index: 99999;
+        border-radius: 20px 20px 0 0;
+        .productCompare,
+        .wishList,
+        .basket {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: rgba(66, 90, 139, 1);
+          svg {
+            margin-right: 10px;
+          }
+          .inPrCount {
+            position: absolute;
+            top: -20px;
+            left: 11px;
+            width: 30px;
+            height: 28px;
+            border-radius: 100%;
+            background-color: #0048de;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+          }
+        }
+      }
+      // .loginForm {
+      //   width: 300px;
+      //   height: fit-content;
+      //   padding: 30px;
+      //   background-color: white;
+      //   box-shadow:
+      //     rgba(0, 0, 0, 0.16) 0px 3px 6px,
+      //     rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      //   border-radius: 12px;
+      //   .closeLoginArea {
+      //     position: absolute;
+      //     top: 10px;
+      //     right: 15px;
+      //     z-index: 999;
+      //     cursor: pointer;
+      //   }
+      //   .enterBtnForgetPassword {
+      //     display: flex;
+      //     align-items: center;
+      //     justify-content: space-between;
+      //     .enterBtn {
+      //       padding: 7px 30px;
+      //       border: none;
+      //       background-color: rgba(66, 90, 139, 1);
+      //       color: white;
+      //       font-size: 20px;
+      //       font-weight: 500;
+      //       border-radius: 24px;
+      //       cursor: pointer;
+      //     }
+      //     .forgetPasswordUrl {
+      //       color: rgba(66, 90, 139, 1);
+      //       border-bottom: 1px solid rgba(66, 90, 139, 1);
+      //       font-size: 18px;
+      //       font-weight: 400;
+      //     }
+      //   }
+      //   .createAccount {
+      //     display: flex;
+      //     align-items: center;
+      //     justify-content: space-between;
+      //     margin-top: 14px;
+      //     .text {
+      //       color: rgba(66, 90, 139, 1);
+      //       font-size: 18px;
+      //       font-weight: 400;
+      //     }
+      //     .accountLink {
+      //       width: 45%;
+      //       text-align: center;
+      //       padding: 7px 0;
+      //       border: none;
+      //       background-color: rgba(66, 90, 139, 1);
+      //       color: white;
+      //       font-size: 15px;
+      //       font-weight: 500;
+      //       border-radius: 24px;
+      //       cursor: pointer;
+      //     }
+      //   }
+      // }
+      // .showLoginArea {
+      //   display: block;
+      // }
+    }
+  }
+}

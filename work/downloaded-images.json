@@ -1,0 +1,128 @@
+[
+  {
+    "product": "iphone-18-pro",
+    "path": "/images/products/iphone-18-pro/1.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-silver-202609?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "bytes": 58893
+  },
+  {
+    "product": "iphone-18-pro",
+    "path": "/images/products/iphone-18-pro/2.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-witb-silver-202609?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "bytes": 37591
+  },
+  {
+    "product": "iphone-18-pro",
+    "path": "/images/products/iphone-18-pro/3.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-finish-select-black-202609_AV2?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "bytes": 62027
+  },
+  {
+    "product": "iphone-18-pro-max",
+    "path": "/images/products/iphone-18-pro-max/1.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-silver-202609?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "bytes": 64937
+  },
+  {
+    "product": "iphone-18-pro-max",
+    "path": "/images/products/iphone-18-pro-max/2.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-witb-silver-202609?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "bytes": 36002
+  },
+  {
+    "product": "iphone-18-pro-max",
+    "path": "/images/products/iphone-18-pro-max/3.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-18-pro-max-finish-select-black-202609_AV2?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "bytes": 60224
+  },
+  {
+    "product": "iphone-17",
+    "path": "/images/products/iphone-17/1.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-black-202509?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "bytes": 54602
+  },
+  {
+    "product": "iphone-17",
+    "path": "/images/products/iphone-17/2.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-witb-black-202509?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "bytes": 32452
+  },
+  {
+    "product": "iphone-17",
+    "path": "/images/products/iphone-17/3.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-sage-202509_AV2?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "bytes": 42082
+  },
+  {
+    "product": "iphone-air",
+    "path": "/images/products/iphone-air/1.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-skyblue-202509?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "bytes": 50025
+  },
+  {
+    "product": "iphone-air",
+    "path": "/images/products/iphone-air/2.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-witb-skyblue-202509?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "bytes": 28644
+  },
+  {
+    "product": "iphone-air",
+    "path": "/images/products/iphone-air/3.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-spaceblack-202509_AV2?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "bytes": 40842
+  },
+  {
+    "product": "airpods-pro-3",
+    "path": "/images/products/airpods-pro-3/1.jpg",
+    "source": "https://www.apple.com/v/airpods-pro/t/images/overview/welcome/hero__b0eal3mn03ua_large.jpg",
+    "bytes": 49507
+  },
+  {
+    "product": "airpods-pro-3",
+    "path": "/images/products/airpods-pro-3/2.jpg",
+    "source": "https://www.apple.com/v/airpods-pro/t/images/overview/product-viewer/closer_look_initial__cksqga5hm77m_large.jpg",
+    "bytes": 33318
+  },
+  {
+    "product": "airpods-pro-3",
+    "path": "/images/products/airpods-pro-3/3.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-pro-3-hero-select-202509?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "bytes": 36703
+  },
+  {
+    "product": "airpods-max-2",
+    "path": "/images/products/airpods-max-2/1.jpg",
+    "source": "https://www.apple.com/v/airpods-max/l/images/overview/bento/midnight/bento_1_airpod_max_midnight__4jy1tkqh9qay_xlarge.jpg",
+    "bytes": 90490
+  },
+  {
+    "product": "airpods-max-2",
+    "path": "/images/products/airpods-max-2/2.jpg",
+    "source": "https://www.apple.com/v/airpods-max/l/images/overview/media-card/design_static__dph7m26odtg2_xlarge.jpg",
+    "bytes": 141144
+  },
+  {
+    "product": "airpods-max-2",
+    "path": "/images/products/airpods-max-2/3.jpg",
+    "source": "https://www.apple.com/v/airpods-max/l/images/overview/media-card/hifi_static__fbsq0dr3be2q_xlarge.jpg",
+    "bytes": 130059
+  },
+  {
+    "product": "magsafe-charger",
+    "path": "/images/products/magsafe-charger/1.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MGD74?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "bytes": 23913
+  },
+  {
+    "product": "magsafe-charger",
+    "path": "/images/products/magsafe-charger/2.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MGD74_AV1?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "bytes": 23968
+  },
+  {
+    "product": "magsafe-charger",
+    "path": "/images/products/magsafe-charger/3.jpg",
+    "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MGD74_AV2?wid=1000&hei=1000&fmt=jpeg&qlt=85",
+    "bytes": 32058
+  }
+]

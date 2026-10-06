@@ -1,0 +1,194 @@
+ html,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  /* background: linear-gradient(180deg, #CFE2EB 24.52%, #C4E4F4 100%); */
+  background-color: #fbfafc;
+}
+a,p,li,span,div,h1,h2,h3,h4,h5,h6,figure{
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+a{
+  color: black;
+}
+
+.headerContainer{
+  max-width: 1860px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+.container{
+  max-width: 1500px;
+  margin: 0 auto;
+  padding:16px 72px;
+}
+.swal2-container {
+  z-index: 9999999999 !important;
+}
+
+@media only screen and (max-width: 950px) {
+.container{
+  padding:20px;
+}
+}
+
+@media only screen and (max-width: 950px) {
+  .headerContainer{
+  padding: 5px;
+}
+}
+.sectionTitle{
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(32, 114, 153, 1);
+  border-bottom: 1px solid rgba(32, 114, 153, 1);
+    padding-bottom: 15px;
+    margin: 30px 0;
+}
+
+@media only screen and (max-width: 950px) {
+  .sectionTitle{
+  font-size: 24px;
+  font-weight: 700;
+    padding-bottom: 15px;
+    margin-top: 0;
+}
+}
+.footerPageTitle{
+      font-size: 40px;
+    font-weight: 700;
+    color: #207299;
+    text-align: center;
+    margin: 30px 0;
+}
+.footerPageInfo{
+      width: 80%;
+    margin: 30px auto 40px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #207299;
+}
+
+@media only screen and (max-width: 950px) {
+  .footerPageTitle{
+    font-size: 24px;
+    font-weight: 700;
+    margin: -10px 0 10px 0;
+}
+.footerPageInfo{
+    width: 100%;
+    margin: 10px auto 40px;
+    font-size: 17px;
+    line-height: 25px;
+}
+}
+
+/* mobile swiper slider pagination style  */
+.swiper-pagination-bullet{
+  width: 10px !important;
+  height: 10px !important;
+  background:  rgba(32, 114, 153, 1)!important;
+  opacity: 1 !important;
+  margin-top: 20px !important;
+  margin: -10px 5px !important;
+  transition: .5s ease !important;
+}
+ .swiper-pagination-bullet-active { 
+  width: 18px !important;
+  height: 10px !important;
+  border-radius: 5px !important;
+  background-color: rgba(1, 148, 219, 1) !important;
+}
+.swiper-slide {
+  position: relative;
+  height: 100%;
+}
+
+/* headerde olan sliderin smooth(yumusaq) getmesi ve ortalanmasi ucun style */
+.headerCategorySwiperSlider .swiper-wrapper {
+    align-items: center !important;
+  transition-timing-function: linear !important;
+}
+
+/* footerde olan brand sliderin smooth(yumusaq) getmesi ve ortalanmasi  ucun style */
+.brandSwiperSlider .swiper-wrapper {
+    align-items: center !important;
+  transition-timing-function: linear !important;
+}
+/* footerdeki xeritenin ustunde olan artiq melumatlari goturmek ucun style */
+.leaflet-control-attribution{
+  display: none !important;
+}
+
+/* product detail page product images slider style */
+
+
+.swiper-slide-thumb-active img {
+    opacity: 1 !important;
+}
+.prDetailNextBtn,
+.prDetailPrevBtn{
+position: absolute;
+top: 33px;
+width: 35px;
+height: 35px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 7px;
+}
+.prDetailPrevBtn{
+    left: 14px;
+    cursor: pointer;
+}
+.prDetailNextBtn{
+  right: 14px;
+  cursor: pointer;
+}
+
+.prDetailCreditMonthsSlider{
+  width: 250px;
+      flex: 1;
+    min-width: 0; 
+}
+.prDetailCreditMonthsSlider.swiper{
+  margin: 0 !important;
+}
+
+@media only screen and (max-width: 1320px) {
+  .prDetailCreditMonthsSlider{
+  width: 120px;
+}
+}
+
+@media only screen and (max-width: 950px) {
+  .prDetailCreditMonthsSlider{
+  width: 150px;
+}
+}
+.prDetailCreditMonthsSlider .swiper-wrapper {
+  align-items: center;
+}
+@media only screen and (max-width: 950px) {
+ .prDetailNextBtn,
+.prDetailPrevBtn{
+top: 20px;
+width: 22px;
+height: 22px;
+border-radius: 5px;
+}
+.prDetailPrevBtn{
+    left: 4px;
+}
+.prDetailNextBtn{
+  right: 4px;
+} 
+}
+
+
