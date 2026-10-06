@@ -39,14 +39,14 @@
 //       display: flex;
 //       flex-direction: column;
 //       gap: 6px;
-//       background: #f7f8fa;
+//       background: var(--color-page);
 //       overflow-y: auto;
 
 //       &::-webkit-scrollbar {
 //         width: 3px;
 //       }
 //       &::-webkit-scrollbar-thumb {
-//         background: #d0d0d0;
+//         background: var(--color-border);
 //         border-radius: 10px;
 //       }
 
@@ -61,7 +61,7 @@
 //           color 0.1s ease;
 //         font-size: 15px;
 //         font-weight: 500;
-//         color: #444;
+//         color: var(--color-text);
 //         position: relative;
 //         letter-spacing: 0.01em;
 //         // border: 1px solid red;
@@ -80,10 +80,10 @@
 //       }
 
 //       .currentPageBtn {
-//         background: #e8f0fe;
-//         color: #0048de;
+//         background: var(--color-soft);
+//         color: var(--color-primary);
 //         font-weight: 600;
-//         border-left: 3px solid #0048de;
+//         border-left: 3px solid var(--color-primary);
 //       }
 //     }
 //   }
@@ -108,7 +108,7 @@
 //       width: 3px;
 //     }
 //     &::-webkit-scrollbar-thumb {
-//       background: #e0e0e0;
+//       background: var(--color-border);
 //       border-radius: 10px;
 //     }
 
@@ -117,15 +117,15 @@
 //       .childLink {
 //         display: block;
 //         padding: 10px 20px;
-//         color: #555;
+//         color: var(--color-muted);
 //         transition: all 0.2s ease;
 //         font-size: 14px;
 //         text-decoration: none;
 //         border-radius: 0;
 
 //         &:hover {
-//           background: #f5f7fb;
-//           color: #1a1a1a;
+//           background: var(--color-page);
+//           color: var(--color-text);
 //           padding-left: 24px;
 //         }
 //       }
@@ -134,7 +134,7 @@
 //         height: 32px;
 //         display: flex;
 //         align-items: center;
-//         color: #1a1a1a;
+//         color: var(--color-text);
 //         background: transparent;
 //         font-weight: 600;
 //         font-size: 14px;
@@ -148,33 +148,33 @@
 //         }
 
 //         &:hover {
-//           background: #f0f2f7;
+//           background: var(--color-page);
 //           padding-left: 24px;
 //         }
 //       }
 
 //       .activeSubTitle {
-//         color: #0048de;
-//         background: #e8f0fe;
-//         border-left: 3px solid #0048de;
+//         color: var(--color-primary);
+//         background: var(--color-soft);
+//         border-left: 3px solid var(--color-primary);
 //       }
 
 //       .childLink {
 //         font-weight: 400;
-//         color: #666;
+//         color: var(--color-muted);
 //         font-size: 13.5px;
 
 //         &:hover {
-//           color: #2563eb;
-//           background: #f0f4ff;
+//           color: var(--color-primary);
+//           background: var(--color-soft);
 //         }
 //       }
 
 //       .activeChildLink {
-//         color: #0048de;
-//         background: #f0f4ff;
+//         color: var(--color-primary);
+//         background: var(--color-soft);
 //         font-weight: 600;
-//         border-left: 3px solid #0048de;
+//         border-left: 3px solid var(--color-primary);
 //       }
 //     }
 //   }
@@ -182,7 +182,7 @@
 //   .sliderArae {
 //     width: 600px;
 //     height: calc(100vh - 90px);
-//     background: #f7f8fa;
+//     background: var(--color-page);
 //     .sliderImgWrapper {
 //       display: flex;
 //       justify-content: center;
@@ -233,7 +233,7 @@
   .categories {
     width: 260px;
     height: calc(100vh - 80px);
-    background: #f7f8fa;
+    background: var(--color-page);
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -248,7 +248,7 @@
     }
 
     &::-webkit-scrollbar-thumb {
-      background: #d0d0d0;
+      background: var(--color-border);
       border-radius: 10px;
     }
 
@@ -266,13 +266,13 @@
         color 0.1s ease;
       font-size: 15px;
       font-weight: 500;
-      color: #444;
+      color: var(--color-text);
       text-decoration: none;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
       &:hover {
-        background: #e2e2e2;
+        background: var(--color-border);
       }
       .categoryImg{
         width: 35px;
@@ -282,17 +282,17 @@
     }
 
     .activeBtn {
-      background: #d1dfff;
+      background: var(--color-border);
       color: #856404;
       font-weight: 600;
-      border-left: 3px solid #b5cbfc;
+      border-left: 3px solid var(--color-border);
     }
 
     .currentPageBtn {
-      background: #e8f0fe;
-      color: #0048de;
+      background: var(--color-soft);
+      color: var(--color-primary);
       font-weight: 600;
-      border-left: 3px solid #0048de;
+      border-left: 3px solid var(--color-primary);
     }
   }
 
@@ -321,7 +321,7 @@
         width: 3px;
       }
       &::-webkit-scrollbar-thumb {
-        background: #e0e0e0;
+        background: var(--color-border);
         border-radius: 10px;
       }
     }
@@ -331,20 +331,20 @@
       .childLink {
         display: block;
         padding: 10px 20px;
-        color: #555;
+        color: var(--color-muted);
         transition: all 0.2s ease;
         font-size: 14px;
         text-decoration: none;
 
         &:hover {
-          background: #f5f7fb;
-          color: #1a1a1a;
+          background: var(--color-page);
+          color: var(--color-text);
           padding-left: 24px;
         }
       }
 
       .subTitle {
-        color: #1a1a1a;
+        color: var(--color-text);
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 0.04em;
@@ -356,27 +356,27 @@
       }
 
       .activeSubTitle {
-        color: #0048de;
-        background: #e8f0fe;
-        border-left: 3px solid #0048de;
+        color: var(--color-primary);
+        background: var(--color-soft);
+        border-left: 3px solid var(--color-primary);
       }
 
       .childLink {
         font-weight: 400;
-        color: #666;
+        color: var(--color-muted);
         font-size: 13.5px;
 
         &:hover {
-          color: #2563eb;
-          background: #f0f4ff;
+          color: var(--color-primary);
+          background: var(--color-soft);
         }
       }
 
       .activeChildLink {
-        color: #0048de;
-        background: #f0f4ff;
+        color: var(--color-primary);
+        background: var(--color-soft);
         font-weight: 600;
-        border-left: 3px solid #0048de;
+        border-left: 3px solid var(--color-primary);
       }
     }
   }

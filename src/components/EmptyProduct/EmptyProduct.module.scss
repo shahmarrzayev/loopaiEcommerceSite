@@ -12,19 +12,19 @@
   .title {
     font-size: 40px;
     font-weight: 700;
-    color: #0997da;
+    color: var(--color-primary);
   }
   .shortInfo {
     font-size: 30px;
-    color: #0997da;
+    color: var(--color-primary);
     margin: -5px 0 15px;
   }
   .pageLinkBtn {
     padding: 10px 20px;
-    color: #0997da;
+    color: var(--color-primary);
     border-radius: 40px;
     font-size: 20px;
-    border: 1px solid #0997da;
+    border: 1px solid var(--color-primary);
   }
 }
 

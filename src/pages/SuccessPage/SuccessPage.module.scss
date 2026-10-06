@@ -8,17 +8,17 @@
         margin: 20px 0 15px;
         font-weight: 700;
         font-size: 30px;
-        color: rgb(9, 151, 218);
+        color: var(--color-primary);
     }
       .homePageLink {
     font-weight: 600;
     padding: 10px 20px;
-    border: 1px solid rgb(9, 151, 218);
+    border: 1px solid var(--color-primary);
     border-radius: 20px;
-    color: rgb(9, 151, 218);
+    color: var(--color-primary);
     transition: background-color 0.8s ease, color 0.8s ease;
     &:hover {
-      background-color: rgb(9, 151, 218);
+      background-color: var(--color-primary);
       color: white;
     }
 }

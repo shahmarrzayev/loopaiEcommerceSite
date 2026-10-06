@@ -1,7 +1,7 @@
 .totalPaymentArea {
   background-color: white;
   border-radius: 16px;
-  border: 1px solid rgba(9, 151, 218, 1);
+  border: 1px solid var(--color-primary);
   padding: 20px;
   width: 300px;
   height: fit-content;
@@ -10,7 +10,7 @@
   .title {
     font-size: 20px;
     font-weight: 500;
-    color: rgba(77, 100, 146, 1);
+    color: var(--color-muted);
     margin-bottom: 15px;
   }
   .allTotalWrapper,
@@ -21,7 +21,7 @@
     align-items: center;
     font-weight: 500;
     font-size: 18px;
-    color: rgba(9, 151, 218, 1);
+    color: var(--color-primary);
     margin: 10px 0;
   }
   .confirmOrder {
@@ -34,7 +34,7 @@
     font-size: 18px;
     font-weight: 500;
     color: white;
-    background-color: rgba(9, 151, 218, 1);
+    background-color: var(--color-primary);
     cursor: pointer;
   }
   .continueShoppingBtn {
@@ -42,7 +42,7 @@
     text-align: center;
     font-size: 18px;
     font-weight: 500;
-    color: rgba(9, 151, 218, 1);
+    color: var(--color-primary);
   }
 }
 

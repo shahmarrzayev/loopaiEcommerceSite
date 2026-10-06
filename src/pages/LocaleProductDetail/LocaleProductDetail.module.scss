@@ -4,7 +4,7 @@
   .prIamgeSlider {
     width: 50%;
     height: 100%;
-    // border: 1px solid rgba(55, 104, 122, 1);
+    // border: 1px solid var(--color-muted);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 14px;
     padding: 20px;
@@ -28,14 +28,14 @@
           gap: 12px;
           font-weight: 500;
           font-size: 15px;
-          color: rgba(55, 104, 122, 1);
+          color: var(--color-muted);
           .prCategoryTitle {
-            color: rgba(0, 173, 238, 1);
+            color: var(--color-primary);
           }
         }
         .prCode {
           font-size: 18px;
-          color: rgba(32, 114, 153, 1);
+          color: var(--color-primary);
         }
       }
       .wishlistSharelink {
@@ -43,7 +43,7 @@
         align-items: center;
         gap: 14px;
         font-size: 18px;
-        color: rgba(0, 173, 238, 1);
+        color: var(--color-primary);
         .sharelink{
           cursor: pointer;
           width: 34px;
@@ -52,7 +52,7 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          border: 1px solid rgba(0, 173, 238, 1);
+          border: 1px solid var(--color-primary);
         }
       }
     }
@@ -60,7 +60,7 @@
       margin: 15px 0;
       font-size: 28px;
       font-weight: 600;
-      color: black;
+      color: var(--color-text);
     }
     .priceAreaWrapper {
       display: flex;
@@ -74,7 +74,7 @@
           font-size: 18px;
           font-weight: 700;
           color: white;
-          background-color: rgba(253, 150, 54, 1);
+          background-color: var(--color-accent);
           border-radius: 8px;
         }
       }
@@ -86,12 +86,12 @@
         .price {
           font-weight: 700;
           font-size: 36px;
-          color: rgba(32, 114, 153, 1);
+          color: var(--color-primary);
         }
         .prOldPrice {
           font-size: 18px;
           font-weight: 700;
-          color: rgba(106, 132, 142, 1);
+          color: var(--color-muted);
           text-decoration: line-through;
           text-decoration-color: red;
         }
@@ -109,19 +109,19 @@
         color: white;
         border-radius: 5px;
         &:nth-child(1) {
-          background-color: #28a745;
+          background-color: var(--color-success);
         }
         &:nth-child(2) {
-          background-color: #007bff;
+          background-color: var(--color-primary);
         }
         &:nth-child(3) {
-          background-color: #f97316;
+          background-color: var(--color-accent);
         }
         &:nth-child(4) {
-          background-color: #2e7d32;
+          background-color: var(--color-success);
         }
         &:nth-child(5) {
-          background-color: #0d47a1;
+          background-color: var(--color-text);
         }
       }
     }
@@ -141,13 +141,13 @@
         font-weight: 500;
         border-radius: 8px;
         color: white;
-        background-color: #0048de;
+        background-color: var(--color-primary);
         cursor: pointer;
         height: 23px;
       }
       .productInBasket {
-        background-color: rgb(253, 150, 54);
-        border: 1px solid rgb(253, 150, 54);
+        background-color: var(--color-accent);
+        border: 1px solid var(--color-accent);
       }
       .call {
         width: calc(100% / 3);
@@ -158,9 +158,9 @@
         padding: 7px 15px;
         font-size: 14px;
         font-weight: 500;
-        color: rgba(0, 173, 238, 1);
+        color: var(--color-primary);
         border-radius: 8px;
-        border: 1px solid rgb(0, 173, 238);
+        border: 1px solid var(--color-primary);
         cursor: pointer;
         svg {
           height: 22px;
@@ -172,7 +172,7 @@
       .creditTitle {
         font-size: 18px;
         font-weight: 700;
-        color: black;
+        color: var(--color-text);
         margin-bottom: 15px;
       }
       .installmentCalculator {
@@ -181,7 +181,7 @@
         align-items: center;
         gap: 10px;
         margin-bottom: 15px;
-        border: 1px solid #e8e8ea;
+        border: 1px solid var(--color-border);
         border-radius: 6px;
         .mounts {
           width: 55px;
@@ -192,15 +192,15 @@
           justify-content: center;
           font-size: 14px;
           font-weight: 500;
-          color: black;
+          color: var(--color-text);
           background-color: white;
           cursor: pointer;
-          border: 0.2px solid #e8e8ea;
+          border: 0.2px solid var(--color-border);
         }
         .activeMount {
-          background-color: #f5f7fe;
-          color: rgba(32, 114, 153, 1);
-          border: 1px solid rgba(32, 114, 153, 1);
+          background-color: var(--color-soft);
+          color: var(--color-primary);
+          border: 1px solid var(--color-primary);
         }
         .mountPaymentAndEndTotalPayment {
           display: flex;
@@ -215,7 +215,7 @@
             padding: 0 10px;
             font-weight: 600;
             font-size: 14px;
-            color: black;
+            color: var(--color-text);
             background-color: white;
             .paymeted {
               white-space: nowrap;
@@ -238,7 +238,7 @@
         gap: 15px;
         padding: 15px;
         border-radius: 14px;
-        border: 1px solid rgba(0, 173, 238, 1);
+        border: 1px solid var(--color-primary);
         cursor: pointer;
         img {
           width: 70px;
@@ -246,7 +246,7 @@
         }
       }
       .activeBank {
-        background-color: rgb(32, 114, 153);
+        background-color: var(--color-primary);
         color: white;
       }
     }
@@ -260,7 +260,7 @@
       padding: 0 5px 7px 3px;
       cursor: pointer;
       transition: transform 0.35s ease-in-out;
-      border-bottom: 1px solid rgba(55, 104, 122, 1);
+      border-bottom: 1px solid var(--color-muted);
       .iconUp {
         transform: rotate(180deg);
       }
@@ -270,7 +270,7 @@
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.7s ease;
-      border: 1px solid #e8e8ea;
+      border: 1px solid var(--color-border);
       border-radius: 6px;
 
       .feature {
@@ -418,7 +418,7 @@
             font-size: 10px;
             padding: 3px 7px;
             border-radius: 4px;
-            border: 1px solid rgba(253, 150, 54, 1);
+            border: 1px solid var(--color-accent);
           }
         }
         .priceDiscountedPriceArea {
@@ -465,7 +465,7 @@
           font-size: 12px;
           font-weight: 500;
           border-radius: 8px;
-          border: 1px solid rgb(0, 173, 238);
+          border: 1px solid var(--color-primary);
           svg {
             height: 16px;
           }

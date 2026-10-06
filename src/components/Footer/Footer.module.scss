@@ -8,7 +8,7 @@
   }
   .footerBottom {
     padding: 50px 0;
-    background-color: rgba(240, 243, 248, 1);
+    background-color: var(--color-footer);
     .footercontent {
       display: flex;
       justify-content: space-between;
@@ -28,7 +28,7 @@
           padding-right: 30px;
           font-size: 18px;
           font-weight: 400;
-          color: rgba(77, 100, 146, 1);
+          color: var(--color-muted);
         }
         .paymentCartLogo {
           width: 121px;
@@ -46,10 +46,10 @@
           gap: 3px;
           font-size: 18px;
           font-weight: 400;
-          color: rgba(66, 90, 139, 1);
+          color: var(--color-text);
         }
         .activePage {
-          color: rgb(14, 87, 231);
+          color: var(--color-primary);
         }
       }
       .footerContantList {
@@ -60,7 +60,7 @@
         .title {
           font-size: 24px;
           font-weight: 700;
-          color: rgba(66, 90, 139, 1);
+          color: var(--color-text);
         }
         .communicationIndicator {
           display: flex;
@@ -70,13 +70,13 @@
             white-space: nowrap;
             font-size: 16px;
             font-weight: 700;
-            color: rgba(66, 90, 139, 1);
+            color: var(--color-text);
           }
           .value {
             white-space: nowrap;
             font-size: 16px;
             font-weight: 400;
-            color: rgba(66, 90, 139, 1);
+            color: var(--color-text);
           }
         }
         .footerSocila {
@@ -198,7 +198,7 @@
           .title {
             font-size: 24px;
             font-weight: 700;
-            color: rgba(66, 90, 139, 1);
+            color: var(--color-text);
           }
           .footerSocila {
             margin-top: 5px;

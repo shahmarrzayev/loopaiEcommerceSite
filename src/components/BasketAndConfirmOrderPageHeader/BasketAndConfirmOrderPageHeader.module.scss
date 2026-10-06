@@ -6,7 +6,7 @@
   font-weight: 700;
   text-align: center;
   font-size: 40px;
-  color: rgba(77, 100, 146, 1);
+  color: var(--color-muted);
 }
 .header {
   display: flex;
@@ -21,7 +21,7 @@
     gap: 15px;
     font-weight: 500;
     font-size: 24px;
-    color: rgba(0, 73, 147, 1);
+    color: var(--color-text);
     .oneNumber,
     .twoNumber {
       width: 40px;
@@ -30,20 +30,20 @@
       align-items: center;
       justify-content: center;
       border-radius: 100%;
-      border: 1px solid rgba(0, 73, 147, 1);
+      border: 1px solid var(--color-text);
     }
   }
   // .headerRight {
-  //   color: rgba(9, 151, 218, 1);
+  //   color: var(--color-primary);
   //   color: red;
   //   .twoNumber {
-  //     border: 1px solid rgba(9, 151, 218, 1);
+  //     border: 1px solid var(--color-primary);
   //   }
   // }
   .middleLine {
     width: 40%;
     height: 2px;
-    background-color: rgba(77, 100, 146, 1);
+    background-color: var(--color-muted);
   }
 }
 }
@@ -71,9 +71,9 @@
     }
   }
   // .headerRight {
-  //   color: rgba(9, 151, 218, 1);
+  //   color: var(--color-primary);
   //   .twoNumber {
-  //     border: 1px solid rgba(9, 151, 218, 1);
+  //     border: 1px solid var(--color-primary);
   //   }
   // }
   .middleLine {

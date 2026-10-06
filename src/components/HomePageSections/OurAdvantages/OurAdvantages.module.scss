@@ -24,12 +24,12 @@
           white-space: nowrap;
           font-size: 19px;
           font-weight: 600;
-          color: rgb(14, 34, 77);
+          color: var(--color-text);
         }
         .shortInfo {
           font-size: 14px;
           font-weight: 500;
-          color: rgba(140, 158, 197, 1);
+          color: var(--color-muted);
         }
       }
     }
